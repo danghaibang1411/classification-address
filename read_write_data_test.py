@@ -84,13 +84,3 @@ def parser(text):
             )  # Nếu không có dấu phẩy, thêm chuỗi rỗng vào mảng kết quả
 
     return values_after_comma
-
-
-if __name__ == "__main__":
-    # text = "TT Tân Bình Huyện Yên Sơn, Tuyên Quang"
-    # province = "Tuyên Quang"
-    # district = "Yên Sơn"
-    # ward = "Tân Bình"
-    # file_path = "C:/Users/trong.le-van/Downloads/Slides/Project/test.json"
-    # export_to_json(file_path, text, province, district, ward)
-    get_text_input()
