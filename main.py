@@ -88,6 +88,7 @@ def main():
             if i < 0:
                 continue
             is_use_second_word, result_for_cities = get_result_list_for_cities(final[i], final[i - 1], list_province)
+            temp_for_cities = result_for_cities
             ret = len(result_for_cities)
             if is_use_second_word:
                 text = final[i - 1] + final[i]
@@ -122,9 +123,17 @@ def main():
                     if list_dis.get("parent_code") == code and len(list_dis.get("parent_code")) == len(code):
                         result_list_districts.append(list_dis)
 
+            if len(result_list_districts) == 0:
+                for each_name_cities in temp_for_cities:
+                    code = each_name_cities.get("code")
+                    for list_dis in list_districts:
+                        if list_dis.get("parent_code") == code and len(list_dis.get("parent_code")) == len(code):
+                            result_list_districts.append(list_dis)
+
             # Code for districts
             is_use_second_word, result_for_districts = get_result_list_for_cities(final[i], final[i - 1],
                                                                                   result_list_districts)
+            temp_for_districts = result_for_districts
             ret = len(result_for_districts)
             if is_use_second_word:
                 text = final[i - 1] + final[i]
@@ -163,6 +172,13 @@ def main():
                     if list_ward.get("parent_code") == code and len(list_ward.get("parent_code")) == len(code):
                         result_list_wards.append(list_ward)
 
+            if len(result_list_wards) == 0:
+                for each_name_district in temp_for_districts:
+                    code = each_name_district.get("code")
+                    for list_ward in list_wards:
+                        if list_ward.get("parent_code") == code and len(list_ward.get("parent_code")) == len(code):
+                            result_list_wards.append(list_ward)
+
             # Code for wards
             is_use_second_word, result_for_wards = get_result_list_for_wards(final[i], final[i - 1], result_list_wards)
             ret = len(result_for_wards)
@@ -181,15 +197,17 @@ def main():
             if len(result_for_wards_again) > 0:
                 result_for_wards = result_for_wards_again
 
+            is_worst = False;
             if len(result_for_wards) > 1:
                 is_bool, result_for_wards = get_result_list_for_cities(text, "", result_list_wards)
+                is_worst = True
 
-            if len(result_for_wards) == 1:
+            if len(result_for_wards) == 1 and not is_worst:
                 arr = result_for_wards[0].get('path').split(', ')
                 name_cities = arr[2]
                 name_districts = arr[1]
                 name_wards = arr[0]
-            elif len(result_for_wards) > 1:
+            elif len(result_for_wards) > 0:
                 name_wards = result_for_wards[0].get('name')
 
         finally:
