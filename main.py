@@ -1,23 +1,39 @@
 import json
 import re
 import unicodedata
+import time
 
 from LCSubStr import LCSubStr
 
-import time
-
 from read_write_data_test import export_to_json
 
-with open('data/cities.json', 'r') as file:
+abbreviation_mapping = {
+    'thành phố': 'tp',
+    'tỉnh': 't',
+    'huyện': 'h',
+    'quận': 'q',
+    'thị trấn': 'tt',
+    'thành phố 1': 'pho',
+    'thành phố 2': 'thanh',
+    'a1': 'huyen',
+    'a2': 'thanhpho',
+    'a3': 'quan',
+    'a4': 'tinh',
+    'a5': 'thitran',
+    'a6': 'thi',
+    'a7': 'tran',
+}
+
+with open('data/cities.json', 'r', errors="ignore", encoding="utf-8") as file:
     list_province = json.load(file)
 
-with open('data/districts.json', 'r') as file:
+with open('data/districts.json', 'r', errors="ignore", encoding="utf-8") as file:
     list_districts = json.load(file)
 
-with open('data/wards.json', 'r') as file:
+with open('data/wards.json', 'r', errors="ignore", encoding="utf-8") as file:
     list_wards = json.load(file)
 
-with open('data/public_new.json', 'r') as file:
+with open('data/public_new.json', 'r', errors="ignore", encoding="utf-8") as file:
     list_data = json.load(file)
 
 result_list_cities = []
@@ -28,7 +44,7 @@ result_list_wards = []
 def main():
     all_record = 0
     correct_record = 0
-    # Ghi lại thời điểm bắt đầu
+    # Record starting time
     start_time = time.time()
     name_cities = ""
     name_districts = ""
@@ -52,95 +68,107 @@ def main():
             result_array = all_lower(result_array)
             final = []
             for ss in result_array:
-                final.append(re.sub('<.*?>', '', xoa_dau(ss).replace(".","")))
+                final.append(re.sub('<.*?>', '', remove_regex(ss).replace(".", "")))
             i = len(final) - 1
-            a = get_result_list_for_all(final[i], list_province)
-            ret = len(a)
-            text = final[i]
-            b = []
-            is_second_loop = False
-            while i>0 and ret > 1:
-                i = i-1
-                text = final[i] + text
-                b = get_result_list_for_all(text, list_province)
-                ret = len(b)
-            i = i - 1
-            if len(b) > 0:
-                a = b
 
-            if len(a) > 0:
-                if is_type_existed(final[i], a[0].get("type")):
+            # Code for cities
+            is_use_second_word, result_for_cities = get_result_list_for_cities(final[i], final[i-1], list_province)
+            ret = len(result_for_cities)
+            if is_use_second_word:
+                text = final[i-1] + final[i]
+                i = i - 1
+            else:
+                text = final[i]
+            result_for_cities_again = []
+            if i > 0 and ret > 10:
+                i = i - 1
+                text = final[i] + text
+                result_for_cities_again = get_result_list_for_again(text, list_province)
+                ret = len(result_for_cities_again)
+            i = i - 1
+            if len(result_for_cities_again) > 0:
+                result_for_cities = result_for_cities_again
+
+            if len(result_for_cities) > 0:
+                if final[i] in [abbr.lower() for abbr in abbreviation_mapping.values()]:
                     i = i - 1
-            max_ele = 0
-            if len(a) > 0:
-                name_cities = a[0].get('name')
-            for ele in a:
-                code = ele.get("code")
-                counter = 0
+                    if final[i] == "thanh":
+                        i = i - 1
+                name_cities = result_for_cities[0].get('name')
+            for each_name_cities in result_for_cities:
+                code = each_name_cities.get("code")
                 for list_dis in list_districts:
                     if list_dis.get("parent_code") == code and len(list_dis.get("parent_code")) == len(code):
                         result_list_districts.append(list_dis)
-                        counter = counter + 1
-                if counter >= max_ele:
-                    max_ele = counter
-            a = get_result_list_for_all(final[i], result_list_districts)
-            ret = len(a)
-            text = final[i]
-            b = []
-            is_second_loop = False
-            while i > 0 and ret > 1:
+
+            # Code for districts
+            is_use_second_word, result_for_districts = get_result_list_for_cities(final[i], final[i - 1], result_list_districts)
+            ret = len(result_for_districts)
+            if is_use_second_word:
+                text = final[i - 1] + final[i]
+                i = i - 1
+            else:
+                text = final[i]
+            result_for_districts_again = []
+            if i > 0 and ret > 5:
                 i = i - 1
                 text = final[i] + text
-                b = get_result_list_for_all(text, result_list_districts)
-                ret = len(b)
-                is_second_loop = True
-            i = i-1
-            if len(b) > 0:
-                a = b
-            if len(a) > 0:
-                if is_type_existed(final[i], a[0].get("type")):
+                result_for_districts_again = get_result_list_for_again(text, result_list_districts)
+                ret = len(result_for_districts_again)
+            i = i - 1
+            if len(result_for_districts_again) > 0:
+                result_for_districts = result_for_districts_again
+
+            if len(result_for_districts) > 0:
+                if final[i] in [abbr.lower() for abbr in abbreviation_mapping.values()]:
                     i = i - 1
-            if len(a) > 0:
-                name_districts = a[0].get('name_with_type')
-            max_ele = 0
-            for ele in a:
-                code = ele.get("code")
-                counter = 0
+                name_districts = result_for_districts[0].get('name')
+            for each_name_district in result_for_districts:
+                code = each_name_district.get("code")
                 for list_ward in list_wards:
                     if list_ward.get("parent_code") == code and len(list_ward.get("parent_code")) == len(code):
                         result_list_wards.append(list_ward)
-                        counter = counter + 1
-                if counter >= max_ele:
-                    max_ele = counter
-            a = get_result_list_for_all(final[i], result_list_wards)
-            ret = len(a)
-            text = final[i]
-            b = []
-            is_second_loop = False
+
+            # Code for wards
+            is_use_second_word, result_for_wards = get_result_list_for_cities(final[i], final[i - 1], result_list_wards)
+            ret = len(result_for_wards)
+            if is_use_second_word:
+                text = final[i - 1] + final[i]
+                i = i - 1
+            else:
+                text = final[i]
+            result_for_wards_again = []
             while i > 0 and ret > 1:
                 i = i - 1
                 text = final[i] + text
-                b = get_result_list_for_all(text, result_list_wards)
-                ret = len(b)
-            if len(b) > 0:
-                a = b
-            if len(a) > 0:
-                name_wards = a[0].get('name_with_type')
+                result_for_wards_again = get_result_list_for_again(text, result_list_wards)
+                ret = len(result_for_wards_again)
+            i = i - 1
+            if len(result_for_wards_again) > 0:
+                result_for_wards = result_for_wards_again
+
+            if len(result_for_wards) == 1:
+                arr = result_for_wards[0].get('path').split(', ')
+                name_cities = arr[2]
+                name_districts = arr[1]
+                name_wards = arr[0]
+            elif len(result_for_wards) > 1:
+                name_wards = result_for_wards[0].get('name')
+
         finally:
-            rett = line_data.get('result')
-            if name_cities == rett.get('province') or name_districts == rett.get('district') or name_wards == rett.get('ward'):
+            expected_result = line_data.get('result')
+            if (name_cities == expected_result.get('province') or name_districts == expected_result.get('district')
+                    or name_wards == expected_result.get(
+                    'ward')):
                 correct_record = correct_record + 1
-            export_to_json('data/output.json', data, name_cities, name_districts, name_wards)
+            export_to_json('data/output.json', data, expected_result, name_cities, name_districts, name_wards)
 
     print("Classification correct: ", correct_record, "/", all_record)
     print("Percent correct = ", (correct_record / all_record) * 100)
 
-
-
-    # Ghi lại thời điểm kết thúc
     end_time = time.time()
     execution_time = end_time - start_time
-    print(f"Thời gian chạy: {execution_time} giây")
+    print(f"Time execution: {execution_time} seconds")
 
 
 def is_type_existed(text, data_type):
@@ -149,32 +177,49 @@ def is_type_existed(text, data_type):
     result = False
     min_same = min(len(text), len(data_type))
     same = LCSubStr(text, data_type, len(text), len(data_type))
-    if (same/min_same) > 0.8:
+    if (same / min_same) > 0.8:
         result = True
     return result
 
 
-def get_result_list_for_all(text, list_data_add):
-    if len(text) < 1:
-        return []
+def get_result_list_for_cities(first_word, second_word, list_data_add):
+    is_use_second_word = False
+    result = []
+    result_one_word = []
+    result_two_word = []
+    if len(first_word) < 1 or len(first_word+second_word) < 1:
+        return is_use_second_word, result
+    for ref in list_data_add:
+        cities = ref.get("slug").replace("-", "")
+        min_same = min(len(first_word), len(cities))
+        same = LCSubStr(first_word, cities, len(first_word), len(cities))
+        if (same / min_same) >= 0.65:
+            result_one_word.append(ref)
+
+    double_word = second_word+first_word
+    for ref in list_data_add:
+        cities = ref.get("slug").replace("-", "")
+        min_same = min(len(double_word), len(cities))
+        same = LCSubStr(double_word, cities, len(double_word), len(cities))
+        if (same / min_same) >= 0.65:
+            result_two_word.append(ref)
+
+    if len(result_two_word) < len(result_one_word):
+        is_use_second_word = True
+        result = result_two_word
+    else:
+        is_use_second_word = False
+        result = result_one_word
+    return is_use_second_word, result
+
+
+def get_result_list_for_again(text, list_data_add):
     result = []
     for ref in list_data_add:
         cities = ref.get("slug").replace("-", "")
         min_same = min(len(text), len(cities))
         same = LCSubStr(text, cities, len(text), len(cities))
-        if (same/min_same) >= 0.7:
-            result.append(ref)
-    return result
-
-
-def get_result_list_second(text, list_data_add):
-    result = []
-    max = 0
-    for ref in list_data_add:
-        cities = ref.get("slug").replace("-", "")
-        min_same = min(len(text), len(cities))
-        same = LCSubStr(text, cities, len(text), len(cities))
-        if (same/min_same) >= 0.7:
+        if (same / min_same) >= 0.7:
             result.append(ref)
     return result
 
@@ -184,12 +229,15 @@ def all_lower(my_list):
 
 
 BANG_XOA_DAU = str.maketrans(
-    "ÁÀẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬĐÈÉẺẼẸÊẾỀỂỄỆÍÌỈĨỊÓÒỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÚÙỦŨỤƯỨỪỬỮỰÝỲỶỸỴáàảãạăắằẳẵặâấầẩẫậđèéẻẽẹêếềểễệíìỉĩịóòỏõọôốồổỗộơớờởỡợúùủũụưứừửữựýỳỷỹỵ",
-    "A"*17 + "D" + "E"*11 + "I"*5 + "O"*17 + "U"*11 + "Y"*5 + "a"*17 + "d" + "e"*11 + "i"*5 + "o"*17 + "u"*11 + "y"*5
+    "ÁÀẢÃẠĂẮẰẲẴẶÂẤẦẨẪẬĐÈÉẺẼẸÊẾỀỂỄỆÍÌỈĨỊÓÒỎÕỌÔỐỒỔỖỘƠỚỜỞỠỢÚÙỦŨ"
+    "ỤƯỨỪỬỮỰÝỲỶỸỴáàảãạăắằẳẵặâấầẩẫậđèéẻẽẹêếềểễệíìỉĩịóòỏõọôốồổ"
+    "ỗộơớờởỡợúùủũụưứừửữựýỳỷỹỵ",
+    "A" * 17 + "D" + "E" * 11 + "I" * 5 + "O" * 17 + "U" * 11 + "Y"
+    * 5 + "a" * 17 + "d" + "e" * 11 + "i" * 5 + "o" * 17 + "u" * 11 + "y" * 5
 )
 
 
-def xoa_dau(txt: str) -> str:
+def remove_regex(txt: str) -> str:
     if not unicodedata.is_normalized("NFC", txt):
         txt = unicodedata.normalize("NFC", txt)
     return txt.translate(BANG_XOA_DAU)
