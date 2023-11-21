@@ -26,6 +26,8 @@ result_list_wards = []
 
 
 def main():
+    all_record = 0
+    correct_record = 0
     # Ghi lại thời điểm bắt đầu
     start_time = time.time()
     name_cities = ""
@@ -37,6 +39,7 @@ def main():
     with open('data/output.json', "w", encoding="utf-8") as output_file:
         json.dump(data, output_file, ensure_ascii=False, indent=2)
     for line_data in list_data:
+        all_record = all_record + 1
         try:
             name_cities = ""
             name_districts = ""
@@ -124,7 +127,13 @@ def main():
             if len(a) > 0:
                 name_wards = a[0].get('name_with_type')
         finally:
-            export_to_json('data/output.json', data, name_cities,name_districts,name_wards)
+            rett = line_data.get('result')
+            if name_cities == rett.get('province') or name_districts == rett.get('district') or name_wards == rett.get('ward'):
+                correct_record = correct_record + 1
+            export_to_json('data/output.json', data, name_cities, name_districts, name_wards)
+
+    print("Classification correct: ", correct_record, "/", all_record)
+    print("Percent correct = ", (correct_record / all_record) * 100)
 
 
 

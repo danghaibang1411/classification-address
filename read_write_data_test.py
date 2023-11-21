@@ -66,8 +66,6 @@ def export_to_json(file_path, text, province, district, ward):
     with open(file_path, "w", encoding="utf-8") as output_file:
         json.dump(existing_data, output_file, ensure_ascii=False, indent=2)
 
-    print("New data has been added to output.json")
-
 
 def parser(text):
     result_array = [token.strip() for token in re.split(r'[,\s]+', text)]
