@@ -32,7 +32,10 @@ def main():
     name_districts = ""
     name_wards = ""
     data = ""
-    # open('data/output.json', 'w').close()
+    open('data/output.json', 'w').close()
+    data = []
+    with open('data/output.json', "w", encoding="utf-8") as output_file:
+        json.dump(data, output_file, ensure_ascii=False, indent=2)
     for line_data in list_data:
         try:
             name_cities = ""
@@ -132,6 +135,8 @@ def main():
 
 
 def is_type_existed(text, data_type):
+    if len(text) < 1:
+        return False
     result = False
     min_same = min(len(text), len(data_type))
     same = LCSubStr(text, data_type, len(text), len(data_type))
@@ -141,6 +146,8 @@ def is_type_existed(text, data_type):
 
 
 def get_result_list_for_all(text, list_data_add):
+    if len(text) < 1:
+        return []
     result = []
     for ref in list_data_add:
         cities = ref.get("slug").replace("-", "")
