@@ -60,8 +60,8 @@
     },
     "actual_result": {
       "province": "Hồ Chí Minh",
-      "district": "",
-      "ward": ""
+      "district": "1",
+      "ward": "Đa Kao"
     }
   },
   {
@@ -73,8 +73,8 @@
     },
     "actual_result": {
       "province": "Hồ Chí Minh",
-      "district": "",
-      "ward": ""
+      "district": "Hóc Môn",
+      "ward": "Trung Chánh"
     }
   },
   {
@@ -112,8 +112,8 @@
     },
     "actual_result": {
       "province": "Cần Thơ",
-      "district": "",
-      "ward": ""
+      "district": "Vĩnh Thạnh",
+      "ward": "Thạnh Lợi"
     }
   },
   {
@@ -139,7 +139,7 @@
     "actual_result": {
       "province": "Tây Ninh",
       "district": "Dương Minh Châu",
-      "ward": ""
+      "ward": "Dương Minh Châu"
     }
   },
   {
@@ -152,7 +152,7 @@
     "actual_result": {
       "province": "Đồng Nai",
       "district": "Biên Hòa",
-      "ward": ""
+      "ward": "Trảng Dài"
     }
   },
   {
@@ -165,7 +165,7 @@
     "actual_result": {
       "province": "Sơn La",
       "district": "Sơn La",
-      "ward": "Quyết Thắng"
+      "ward": "Tô Hiệu"
     }
   },
   {
@@ -191,7 +191,7 @@
     "actual_result": {
       "province": "Bắc Ninh",
       "district": "Bắc Ninh",
-      "ward": ""
+      "ward": "Suối Hoa"
     }
   },
   {
@@ -203,8 +203,8 @@
     },
     "actual_result": {
       "province": "An Giang",
-      "district": "",
-      "ward": ""
+      "district": "Phú Tân",
+      "ward": "Phú Thạnh"
     }
   },
   {
@@ -243,7 +243,7 @@
     "actual_result": {
       "province": "Tây Ninh",
       "district": "Gò Dầu",
-      "ward": ""
+      "ward": "Hiệp Thạnh"
     }
   },
   {
@@ -255,8 +255,8 @@
     },
     "actual_result": {
       "province": "Hồ Chí Minh",
-      "district": "",
-      "ward": ""
+      "district": "Tân Phú",
+      "ward": "Hiệp Tân"
     }
   },
   {
@@ -282,7 +282,7 @@
     "actual_result": {
       "province": "Gia Lai",
       "district": "Chư Prông",
-      "ward": ""
+      "ward": "Chư Prông"
     }
   },
   {
@@ -295,7 +295,7 @@
     "actual_result": {
       "province": "Bắc Ninh",
       "district": "Tiên Du",
-      "ward": ""
+      "ward": "Minh Đạo"
     }
   },
   {
@@ -308,7 +308,7 @@
     "actual_result": {
       "province": "Nghệ An",
       "district": "Con Cuông",
-      "ward": "Lạng Khê"
+      "ward": "Bồng Khê"
     }
   },
   {
@@ -334,7 +334,7 @@
     "actual_result": {
       "province": "Đồng Nai",
       "district": "Biên Hòa",
-      "ward": "Long Bình"
+      "ward": "Long Bình Tân"
     }
   },
   {
@@ -386,7 +386,7 @@
     "actual_result": {
       "province": "Nghệ An",
       "district": "Hưng Nguyên",
-      "ward": "Hưng Nguyên"
+      "ward": "Hưng Mỹ"
     }
   },
   {
@@ -438,7 +438,7 @@
     "actual_result": {
       "province": "Nghệ An",
       "district": "Cửa Lò",
-      "ward": ""
+      "ward": "Nghi Hương"
     }
   },
   {
@@ -449,9 +449,9 @@
       "ward": "Hoằng Anh"
     },
     "actual_result": {
-      "province": "Khánh Hòa",
-      "district": "Ninh Hòa",
-      "ward": "Ninh Thân"
+      "province": "Thanh Hóa",
+      "district": "Thanh Hóa",
+      "ward": "Hoằng Anh"
     }
   },
   {
@@ -463,8 +463,8 @@
     },
     "actual_result": {
       "province": "Bến Tre",
-      "district": "",
-      "ward": ""
+      "district": "Châu Thành",
+      "ward": "Hữu Định"
     }
   },
   {
@@ -475,9 +475,9 @@
       "ward": "Yên Thanh"
     },
     "actual_result": {
-      "province": "Quảng Ngãi",
-      "district": "Thăng Bình",
-      "ward": ""
+      "province": "Quảng Ninh",
+      "district": "Uông Bí",
+      "ward": "Yên Thanh"
     }
   },
   {
@@ -490,7 +490,7 @@
     "actual_result": {
       "province": "Trà Vinh",
       "district": "Càng Long",
-      "ward": ""
+      "ward": "Càng Long"
     }
   },
   {
@@ -529,7 +529,7 @@
     "actual_result": {
       "province": "Đà Nẵng",
       "district": "Hải Châu",
-      "ward": ""
+      "ward": "Hòa Cường Nam"
     }
   },
   {
@@ -542,7 +542,7 @@
     "actual_result": {
       "province": "Bình Định",
       "district": "Phù Mỹ",
-      "ward": "Mỹ Phong"
+      "ward": "Phù Mỹ"
     }
   },
   {
@@ -567,7 +567,7 @@
     },
     "actual_result": {
       "province": "Hồ Chí Minh",
-      "district": "",
+      "district": "1",
       "ward": ""
     }
   },
@@ -592,9 +592,9 @@
       "ward": "Minh Hòa"
     },
     "actual_result": {
-      "province": "An Giang",
-      "district": "",
-      "ward": ""
+      "province": "Kiên Giang",
+      "district": "Châu Thành",
+      "ward": "Minh Hòa"
     }
   },
   {
@@ -605,8 +605,8 @@
       "ward": "Đức Hòa"
     },
     "actual_result": {
-      "province": "Vĩnh Long",
-      "district": "Mộc Hóa",
+      "province": "Long An",
+      "district": "Đức Hòa",
       "ward": "Đức Hòa"
     }
   },
@@ -633,7 +633,7 @@
     "actual_result": {
       "province": "Vĩnh Long",
       "district": "Tam Bình",
-      "ward": "Phú Thịnh"
+      "ward": ""
     }
   },
   {
@@ -659,7 +659,7 @@
     "actual_result": {
       "province": "Bình Thuận",
       "district": "Phan Thiết",
-      "ward": ""
+      "ward": "Đức Long"
     }
   },
   {
@@ -684,8 +684,8 @@
     },
     "actual_result": {
       "province": "Bình Phước",
-      "district": "",
-      "ward": ""
+      "district": "Bình Long",
+      "ward": "Thanh Lương"
     }
   },
   {
@@ -737,7 +737,7 @@
     "actual_result": {
       "province": "Thanh Hóa",
       "district": "Thanh Hóa",
-      "ward": "Quảng Thắng"
+      "ward": "Quảng Thành"
     }
   },
   {
@@ -763,7 +763,7 @@
     "actual_result": {
       "province": "Đắk Lắk",
       "district": "Krông Pắc",
-      "ward": ""
+      "ward": "Ea Phê"
     }
   },
   {
@@ -776,7 +776,7 @@
     "actual_result": {
       "province": "Phú Thọ",
       "district": "Thanh Ba",
-      "ward": "Vũ Yển"
+      "ward": "Lương Lỗ"
     }
   },
   {
@@ -801,8 +801,8 @@
     },
     "actual_result": {
       "province": "Nam Định",
-      "district": "",
-      "ward": ""
+      "district": "Nam Trực",
+      "ward": "Nam Hải"
     }
   },
   {
@@ -814,8 +814,8 @@
     },
     "actual_result": {
       "province": "Hồ Chí Minh",
-      "district": "",
-      "ward": ""
+      "district": "Phú Nhuận",
+      "ward": "13"
     }
   },
   {
@@ -827,7 +827,7 @@
     },
     "actual_result": {
       "province": "Bà Rịa - Vũng Tàu",
-      "district": "",
+      "district": "Bà Rịa",
       "ward": ""
     }
   },
@@ -841,7 +841,7 @@
     "actual_result": {
       "province": "Tiền Giang",
       "district": "Cai Lậy",
-      "ward": "Mỹ Long"
+      "ward": ""
     }
   },
   {
@@ -854,7 +854,7 @@
     "actual_result": {
       "province": "Cần Thơ",
       "district": "Cờ Đỏ",
-      "ward": ""
+      "ward": "Cờ Đỏ"
     }
   },
   {
@@ -893,7 +893,7 @@
     "actual_result": {
       "province": "Thanh Hóa",
       "district": "Như Xuân",
-      "ward": "Xuân Bình"
+      "ward": "Tân Bình"
     }
   },
   {
@@ -906,7 +906,7 @@
     "actual_result": {
       "province": "Ninh Bình",
       "district": "Ninh Bình",
-      "ward": ""
+      "ward": "Vân Giang"
     }
   },
   {
@@ -945,7 +945,7 @@
     "actual_result": {
       "province": "Hà Nội",
       "district": "Long Biên",
-      "ward": ""
+      "ward": "Sài Đồng"
     }
   },
   {
@@ -970,7 +970,7 @@
     },
     "actual_result": {
       "province": "Bà Rịa - Vũng Tàu",
-      "district": "",
+      "district": "Bà Rịa",
       "ward": ""
     }
   },
@@ -983,7 +983,7 @@
     },
     "actual_result": {
       "province": "Hồ Chí Minh",
-      "district": "",
+      "district": "5",
       "ward": ""
     }
   },
@@ -996,8 +996,8 @@
     },
     "actual_result": {
       "province": "Hồ Chí Minh",
-      "district": "",
-      "ward": ""
+      "district": "8",
+      "ward": "13"
     }
   },
   {
@@ -1010,7 +1010,7 @@
     "actual_result": {
       "province": "Đồng Nai",
       "district": "Trảng Bom",
-      "ward": ""
+      "ward": "Trảng Bom"
     }
   },
   {
@@ -1022,7 +1022,7 @@
     },
     "actual_result": {
       "province": "Hồ Chí Minh",
-      "district": "",
+      "district": "1",
       "ward": ""
     }
   },
@@ -1034,9 +1034,9 @@
       "ward": "Hoàng Lâu"
     },
     "actual_result": {
-      "province": "Bình Phước",
+      "province": "Vĩnh Phúc",
       "district": "Tam Dương",
-      "ward": ""
+      "ward": "Hoàng Lâu"
     }
   },
   {
@@ -1061,8 +1061,8 @@
     },
     "actual_result": {
       "province": "Quảng Bình",
-      "district": "Quảng Trạch",
-      "ward": ""
+      "district": "Bố Trạch",
+      "ward": "Đồng Trạch"
     }
   },
   {
@@ -1074,8 +1074,8 @@
     },
     "actual_result": {
       "province": "Hà Nội",
-      "district": "",
-      "ward": ""
+      "district": "Thạch Thất",
+      "ward": "Thạch Xá"
     }
   },
   {
@@ -1087,8 +1087,8 @@
     },
     "actual_result": {
       "province": "Hà Nội",
-      "district": "Tây Hồ",
-      "ward": "Phú Thượng"
+      "district": "Thường Tín",
+      "ward": ""
     }
   },
   {
@@ -1126,7 +1126,7 @@
     },
     "actual_result": {
       "province": "Hà Nội",
-      "district": "Đống Đa",
+      "district": "Hà Đông",
       "ward": "Quang Trung"
     }
   },
@@ -1153,7 +1153,7 @@
     "actual_result": {
       "province": "Hà Nội",
       "district": "Hai Bà Trưng",
-      "ward": ""
+      "ward": "Minh Khai"
     }
   },
   {
@@ -1179,7 +1179,7 @@
     "actual_result": {
       "province": "Thanh Hóa",
       "district": "Tĩnh Gia",
-      "ward": ""
+      "ward": "Nguyên Bình"
     }
   },
   {
@@ -1217,8 +1217,8 @@
     },
     "actual_result": {
       "province": "An Giang",
-      "district": "",
-      "ward": ""
+      "district": "Châu Đốc",
+      "ward": "Châu Phú B"
     }
   },
   {
@@ -1231,7 +1231,7 @@
     "actual_result": {
       "province": "Thanh Hóa",
       "district": "Tĩnh Gia",
-      "ward": "Hải Bình"
+      "ward": "Định Hải"
     }
   },
   {
@@ -1242,9 +1242,9 @@
       "ward": "An Hải"
     },
     "actual_result": {
-      "province": "Bình Thuận",
+      "province": "Ninh Thuận",
       "district": "Ninh Phước",
-      "ward": ""
+      "ward": "An Hải"
     }
   },
   {
@@ -1257,7 +1257,7 @@
     "actual_result": {
       "province": "Tiền Giang",
       "district": "Cai Lậy",
-      "ward": "Long Trung"
+      "ward": "Mỹ Hạnh Trung"
     }
   },
   {
@@ -1283,7 +1283,7 @@
     "actual_result": {
       "province": "Quảng Bình",
       "district": "Lệ Thủy",
-      "ward": "NT Lệ Ninh"
+      "ward": "Sơn Thủy"
     }
   },
   {
@@ -1296,7 +1296,7 @@
     "actual_result": {
       "province": "Thanh Hóa",
       "district": "Thanh Hóa",
-      "ward": ""
+      "ward": "Đông Thọ"
     }
   },
   {
@@ -1309,7 +1309,7 @@
     "actual_result": {
       "province": "Tây Ninh",
       "district": "Tân Châu",
-      "ward": ""
+      "ward": "Tân Thành"
     }
   },
   {
@@ -1347,8 +1347,8 @@
     },
     "actual_result": {
       "province": "Bình Phước",
-      "district": "",
-      "ward": ""
+      "district": "Bình Long",
+      "ward": "Thanh Lương"
     }
   },
   {
@@ -1386,7 +1386,7 @@
     },
     "actual_result": {
       "province": "Hồ Chí Minh",
-      "district": "",
+      "district": "1",
       "ward": ""
     }
   },
@@ -1399,8 +1399,8 @@
     },
     "actual_result": {
       "province": "Thanh Hóa",
-      "district": "",
-      "ward": ""
+      "district": "Thạch Thành",
+      "ward": "Thạch Bình"
     }
   },
   {
@@ -1412,8 +1412,8 @@
     },
     "actual_result": {
       "province": "Phú Thọ",
-      "district": "",
-      "ward": ""
+      "district": "Việt Trì",
+      "ward": "Chu Hóa"
     }
   },
   {
@@ -1424,9 +1424,9 @@
       "ward": "Xuân Hương"
     },
     "actual_result": {
-      "province": "An Giang",
-      "district": "Hà Giang",
-      "ward": "An Hà"
+      "province": "Bắc Giang",
+      "district": "Lạng Giang",
+      "ward": "Xuân Hương"
     }
   },
   {
@@ -1439,7 +1439,7 @@
     "actual_result": {
       "province": "Đồng Nai",
       "district": "Biên Hòa",
-      "ward": "Long Bình"
+      "ward": "Long Bình Tân"
     }
   },
   {
@@ -1452,7 +1452,7 @@
     "actual_result": {
       "province": "Phú Thọ",
       "district": "Phù Ninh",
-      "ward": "Hạ Giáp"
+      "ward": "Trung Giáp"
     }
   },
   {
@@ -1476,7 +1476,7 @@
       "ward": ""
     },
     "actual_result": {
-      "province": "An Giang",
+      "province": "Kiên Giang",
       "district": "Rạch Giá",
       "ward": ""
     }
@@ -1516,8 +1516,8 @@
     },
     "actual_result": {
       "province": "Hồ Chí Minh",
-      "district": "",
-      "ward": ""
+      "district": "Tân Phú",
+      "ward": "Phú Thạnh"
     }
   },
   {
@@ -1555,7 +1555,7 @@
     },
     "actual_result": {
       "province": "Bà Rịa - Vũng Tàu",
-      "district": "",
+      "district": "Bà Rịa",
       "ward": ""
     }
   },
@@ -1569,7 +1569,7 @@
     "actual_result": {
       "province": "Tuyên Quang",
       "district": "Tuyên Quang",
-      "ward": ""
+      "ward": "Minh Xuân"
     }
   },
   {
@@ -1580,9 +1580,9 @@
       "ward": "An Hải"
     },
     "actual_result": {
-      "province": "Bình Thuận",
+      "province": "Ninh Thuận",
       "district": "Ninh Phước",
-      "ward": ""
+      "ward": "An Hải"
     }
   },
   {
@@ -1606,9 +1606,9 @@
       "ward": "Yên Sơn"
     },
     "actual_result": {
-      "province": "An Giang",
+      "province": "Bắc Giang",
       "district": "Lục Nam",
-      "ward": ""
+      "ward": "Yên Sơn"
     }
   },
   {
@@ -1620,8 +1620,8 @@
     },
     "actual_result": {
       "province": "Hồ Chí Minh",
-      "district": "",
-      "ward": ""
+      "district": "1",
+      "ward": "Cô Giang"
     }
   },
   {
@@ -1634,7 +1634,7 @@
     "actual_result": {
       "province": "Vĩnh Long",
       "district": "Mang Thít",
-      "ward": ""
+      "ward": "Tân An Hội"
     }
   },
   {
@@ -1673,7 +1673,7 @@
     "actual_result": {
       "province": "Tuyên Quang",
       "district": "Tuyên Quang",
-      "ward": ""
+      "ward": "Phan Thiết"
     }
   },
   {
@@ -1685,8 +1685,8 @@
     },
     "actual_result": {
       "province": "Tuyên Quang",
-      "district": "",
-      "ward": ""
+      "district": "Yên Sơn",
+      "ward": "Trung Môn"
     }
   },
   {
@@ -1698,8 +1698,8 @@
     },
     "actual_result": {
       "province": "Hồ Chí Minh",
-      "district": "",
-      "ward": ""
+      "district": "1",
+      "ward": "Bến Thành"
     }
   },
   {
@@ -1712,7 +1712,7 @@
     "actual_result": {
       "province": "Phú Thọ",
       "district": "Tam Nông",
-      "ward": ""
+      "ward": "Tề Lễ"
     }
   },
   {
@@ -1737,8 +1737,8 @@
     },
     "actual_result": {
       "province": "Hồ Chí Minh",
-      "district": "",
-      "ward": ""
+      "district": "12",
+      "ward": "An Phú Đông"
     }
   },
   {
@@ -1764,7 +1764,7 @@
     "actual_result": {
       "province": "Đà Nẵng",
       "district": "Cẩm Lệ",
-      "ward": ""
+      "ward": "Hòa Thọ Đông"
     }
   },
   {
@@ -1788,9 +1788,9 @@
       "ward": "Kim Sơn"
     },
     "actual_result": {
-      "province": "An Giang",
-      "district": "Tân Châu",
-      "ward": ""
+      "province": "Tiền Giang",
+      "district": "Châu Thành",
+      "ward": "Kim Sơn"
     }
   },
   {
@@ -1802,7 +1802,7 @@
     },
     "actual_result": {
       "province": "Bà Rịa - Vũng Tàu",
-      "district": "",
+      "district": "Bà Rịa",
       "ward": ""
     }
   },
@@ -1815,7 +1815,7 @@
     },
     "actual_result": {
       "province": "Hồ Chí Minh",
-      "district": "",
+      "district": "5",
       "ward": ""
     }
   },
@@ -1842,7 +1842,7 @@
     "actual_result": {
       "province": "Vĩnh Long",
       "district": "Tam Bình",
-      "ward": ""
+      "ward": "Hòa Thạnh"
     }
   },
   {
@@ -1854,7 +1854,7 @@
     },
     "actual_result": {
       "province": "Bình Định",
-      "district": "An Nhơn",
+      "district": "Qui Nhơn",
       "ward": ""
     }
   },
@@ -1867,7 +1867,7 @@
     },
     "actual_result": {
       "province": "Hồ Chí Minh",
-      "district": "",
+      "district": "1",
       "ward": ""
     }
   },
@@ -1881,7 +1881,7 @@
     "actual_result": {
       "province": "Tây Ninh",
       "district": "Trảng Bàng",
-      "ward": ""
+      "ward": "Hưng Thuận"
     }
   },
   {
@@ -1894,7 +1894,7 @@
     "actual_result": {
       "province": "Hưng Yên",
       "district": "Phù Cừ",
-      "ward": ""
+      "ward": "Quang Hưng"
     }
   },
   {
@@ -1905,9 +1905,9 @@
       "ward": "Kim Linh"
     },
     "actual_result": {
-      "province": "An Giang",
-      "district": "Long Xuyên",
-      "ward": "Vị Xuyên"
+      "province": "Hà Giang",
+      "district": "Vị Xuyên",
+      "ward": "Kim Linh"
     }
   },
   {
@@ -1920,7 +1920,7 @@
     "actual_result": {
       "province": "Đắk Lắk",
       "district": "Krông Pắc",
-      "ward": ""
+      "ward": "KRông Búk"
     }
   },
   {
@@ -1932,8 +1932,8 @@
     },
     "actual_result": {
       "province": "Hồ Chí Minh",
-      "district": "",
-      "ward": ""
+      "district": "6",
+      "ward": "12"
     }
   },
   {
@@ -1946,7 +1946,7 @@
     "actual_result": {
       "province": "Đồng Tháp",
       "district": "Cao Lãnh",
-      "ward": "Mỹ Xương"
+      "ward": ""
     }
   },
   {
@@ -1957,9 +1957,9 @@
       "province": "Thái Nguyên"
     },
     "actual_result": {
-      "province": "Tuyên Quang",
-      "district": "",
-      "ward": ""
+      "province": "Thái Nguyên",
+      "district": "Định Hóa",
+      "ward": "Phượng Tiến"
     }
   },
   {
@@ -1972,7 +1972,7 @@
     "actual_result": {
       "province": "Bình Định",
       "district": "Tây Sơn",
-      "ward": "Bình Tân"
+      "ward": "Bình Thuận"
     }
   },
   {
@@ -1984,8 +1984,8 @@
     },
     "actual_result": {
       "province": "Ninh Bình",
-      "district": "Gia Viễn",
-      "ward": "Gia Hòa"
+      "district": "",
+      "ward": ""
     }
   },
   {
@@ -1996,7 +1996,7 @@
       "province": "Thái Nguyên"
     },
     "actual_result": {
-      "province": "Phú Yên",
+      "province": "Thái Nguyên",
       "district": "",
       "ward": ""
     }
@@ -2009,7 +2009,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Lạng Sơn",
       "district": "",
       "ward": ""
     }
@@ -2023,7 +2023,7 @@
     },
     "actual_result": {
       "province": "Thanh Hóa",
-      "district": "Cẩm Thủy",
+      "district": "",
       "ward": ""
     }
   },
@@ -2062,8 +2062,8 @@
     },
     "actual_result": {
       "province": "Quảng Ngãi",
-      "district": "",
-      "ward": ""
+      "district": "Bình Sơn",
+      "ward": "Bình Hiệp"
     }
   },
   {
@@ -2074,8 +2074,8 @@
       "province": "Quảng Ngãi"
     },
     "actual_result": {
-      "province": "",
-      "district": "",
+      "province": "Quảng Ngãi",
+      "district": "Quảng Ngãi",
       "ward": ""
     }
   },
@@ -2088,8 +2088,8 @@
     },
     "actual_result": {
       "province": "An Giang",
-      "district": "Tân Châu",
-      "ward": ""
+      "district": "Châu Thành",
+      "ward": "Vĩnh Lợi"
     }
   },
   {
@@ -2101,7 +2101,7 @@
     },
     "actual_result": {
       "province": "Hà Nội",
-      "district": "Mê Linh",
+      "district": "Thanh Xuân",
       "ward": ""
     }
   },
@@ -2115,7 +2115,7 @@
     "actual_result": {
       "province": "Yên Bái",
       "district": "Yên Bình",
-      "ward": ""
+      "ward": "Yên Bình"
     }
   },
   {
@@ -2127,8 +2127,8 @@
     },
     "actual_result": {
       "province": "Tây Ninh",
-      "district": "",
-      "ward": ""
+      "district": "Gò Dầu",
+      "ward": "Thạnh Đức"
     }
   },
   {
@@ -2179,7 +2179,7 @@
     },
     "actual_result": {
       "province": "Nghệ An",
-      "district": "Nam Đàn",
+      "district": "Nghĩa Đàn",
       "ward": ""
     }
   },
@@ -2191,7 +2191,7 @@
       "province": "Nam Định"
     },
     "actual_result": {
-      "province": "",
+      "province": "Nam Định",
       "district": "",
       "ward": ""
     }
@@ -2205,8 +2205,8 @@
     },
     "actual_result": {
       "province": "Cà Mau",
-      "district": "",
-      "ward": ""
+      "district": "Năm Căn",
+      "ward": "Tam Giang"
     }
   },
   {
@@ -2217,8 +2217,8 @@
       "province": "Khánh Hòa"
     },
     "actual_result": {
-      "province": "Thanh Hóa",
-      "district": "Khánh Sơn",
+      "province": "Khánh Hòa",
+      "district": "",
       "ward": ""
     }
   },
@@ -2230,7 +2230,7 @@
       "province": "Quảng Nam"
     },
     "actual_result": {
-      "province": "Quảng Ngãi",
+      "province": "Quảng Nam",
       "district": "",
       "ward": ""
     }
@@ -2243,8 +2243,8 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
-      "district": "",
+      "province": "Hồ Chí Minh",
+      "district": "Bình Thạnh",
       "ward": ""
     }
   },
@@ -2258,7 +2258,7 @@
     "actual_result": {
       "province": "Khánh Hòa",
       "district": "Cam Ranh",
-      "ward": "Cam Bình"
+      "ward": "Cam Thành Nam"
     }
   },
   {
@@ -2269,8 +2269,8 @@
       "province": "Long An"
     },
     "actual_result": {
-      "province": "Vĩnh Long",
-      "district": "Châu Thành",
+      "province": "Long An",
+      "district": "",
       "ward": ""
     }
   },
@@ -2282,8 +2282,8 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
-      "district": "",
+      "province": "Bà Rịa - Vũng Tàu",
+      "district": "Tân Thành",
       "ward": ""
     }
   },
@@ -2297,7 +2297,7 @@
     "actual_result": {
       "province": "Thái Bình",
       "district": "Quỳnh Phụ",
-      "ward": ""
+      "ward": "Quỳnh Lâm"
     }
   },
   {
@@ -2336,7 +2336,7 @@
     "actual_result": {
       "province": "Lạng Sơn",
       "district": "Hữu Lũng",
-      "ward": ""
+      "ward": "Yên Bình"
     }
   },
   {
@@ -2373,8 +2373,8 @@
       "province": "Tiền Giang"
     },
     "actual_result": {
-      "province": "An Giang",
-      "district": "Tân Châu",
+      "province": "Tiền Giang",
+      "district": "",
       "ward": ""
     }
   },
@@ -2387,7 +2387,7 @@
     },
     "actual_result": {
       "province": "Đồng Nai",
-      "district": "Định Quán",
+      "district": "",
       "ward": ""
     }
   },
@@ -2399,8 +2399,8 @@
       "province": "Thái Nguyên"
     },
     "actual_result": {
-      "province": "Phú Yên",
-      "district": "Phổ Yên",
+      "province": "Thái Nguyên",
+      "district": "",
       "ward": ""
     }
   },
@@ -2425,8 +2425,8 @@
       "province": "Bắc Giang"
     },
     "actual_result": {
-      "province": "An Giang",
-      "district": "Hiệp Hòa",
+      "province": "Bắc Giang",
+      "district": "",
       "ward": ""
     }
   },
@@ -2453,7 +2453,7 @@
     "actual_result": {
       "province": "Quảng Bình",
       "district": "Lệ Thủy",
-      "ward": ""
+      "ward": "Sơn Thủy"
     }
   },
   {
@@ -2466,7 +2466,7 @@
     "actual_result": {
       "province": "Thanh Hóa",
       "district": "Hoằng Hóa",
-      "ward": "Hoằng Lương"
+      "ward": "Hoằng Lưu"
     }
   },
   {
@@ -2477,8 +2477,8 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
-      "district": "",
+      "province": "Lào Cai",
+      "district": "Bảo Thắng",
       "ward": ""
     }
   },
@@ -2490,7 +2490,7 @@
       "province": "Yên Bái"
     },
     "actual_result": {
-      "province": "Hà Tĩnh",
+      "province": "",
       "district": "",
       "ward": ""
     }
@@ -2530,8 +2530,8 @@
     },
     "actual_result": {
       "province": "Quảng Ngãi",
-      "district": "",
-      "ward": ""
+      "district": "Bình Sơn",
+      "ward": "Bình Châu"
     }
   },
   {
@@ -2542,8 +2542,8 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
-      "district": "",
+      "province": "Bình Phước",
+      "district": "Đồng Xoài",
       "ward": ""
     }
   },
@@ -2583,7 +2583,7 @@
     "actual_result": {
       "province": "Lào Cai",
       "district": "Mường Khương",
-      "ward": "Mường Khương"
+      "ward": "Bản Sen"
     }
   },
   {
@@ -2594,9 +2594,9 @@
       "province": "Hà Giang"
     },
     "actual_result": {
-      "province": "An Giang",
-      "district": "Tịnh Biên",
-      "ward": ""
+      "province": "Hà Giang",
+      "district": "Vị Xuyên",
+      "ward": "Phong Quang"
     }
   },
   {
@@ -2607,8 +2607,8 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
-      "district": "",
+      "province": "Bình Dương",
+      "district": "Dầu Tiếng",
       "ward": ""
     }
   },
@@ -2621,7 +2621,7 @@
     },
     "actual_result": {
       "province": "Đồng Nai",
-      "district": "Biên Hòa",
+      "district": "",
       "ward": ""
     }
   },
@@ -2633,7 +2633,7 @@
       "province": "Quảng Nam"
     },
     "actual_result": {
-      "province": "",
+      "province": "Nam Định",
       "district": "",
       "ward": ""
     }
@@ -2659,8 +2659,8 @@
       "province": "Hà Giang"
     },
     "actual_result": {
-      "province": "An Giang",
-      "district": "Bắc Mê",
+      "province": "Hà Giang",
+      "district": "",
       "ward": ""
     }
   },
@@ -2672,7 +2672,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Bình Phước",
       "district": "",
       "ward": ""
     }
@@ -2686,8 +2686,8 @@
     },
     "actual_result": {
       "province": "Hà Nội",
-      "district": "",
-      "ward": ""
+      "district": "Đống Đa",
+      "ward": "Khâm Thiên"
     }
   },
   {
@@ -2712,7 +2712,7 @@
     },
     "actual_result": {
       "province": "Thanh Hóa",
-      "district": "",
+      "district": "Hà Trung",
       "ward": ""
     }
   },
@@ -2724,9 +2724,9 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
-      "district": "",
-      "ward": ""
+      "province": "Thanh Hóa",
+      "district": "Yên Định",
+      "ward": "Định Thành"
     }
   },
   {
@@ -2751,8 +2751,8 @@
     },
     "actual_result": {
       "province": "Hà Nội",
-      "district": "",
-      "ward": ""
+      "district": "Thanh Xuân",
+      "ward": "Thượng Đình"
     }
   },
   {
@@ -2777,8 +2777,8 @@
     },
     "actual_result": {
       "province": "Thanh Hóa",
-      "district": "",
-      "ward": ""
+      "district": "Như Thanh",
+      "ward": "Yên Lạc"
     }
   },
   {
@@ -2815,7 +2815,7 @@
       "province": "Thanh Hóa"
     },
     "actual_result": {
-      "province": "Lào Cai",
+      "province": "Thanh Hóa",
       "district": "",
       "ward": ""
     }
@@ -2828,7 +2828,7 @@
       "province": "Quảng Ninh"
     },
     "actual_result": {
-      "province": "Quảng Ngãi",
+      "province": "Quảng Ninh",
       "district": "",
       "ward": ""
     }
@@ -2856,7 +2856,7 @@
     "actual_result": {
       "province": "Quảng Bình",
       "district": "Lệ Thủy",
-      "ward": ""
+      "ward": "An Thủy"
     }
   },
   {
@@ -2868,8 +2868,8 @@
     },
     "actual_result": {
       "province": "Trà Vinh",
-      "district": "",
-      "ward": ""
+      "district": "Càng Long",
+      "ward": "Bình Phú"
     }
   },
   {
@@ -2893,7 +2893,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Bình Phước",
       "district": "",
       "ward": ""
     }
@@ -2906,7 +2906,7 @@
       "province": "Hải Dương"
     },
     "actual_result": {
-      "province": "Bình Dương",
+      "province": "Hải Dương",
       "district": "",
       "ward": ""
     }
@@ -2919,8 +2919,8 @@
       "province": "Quảng Nam"
     },
     "actual_result": {
-      "province": "Quảng Ngãi",
-      "district": "",
+      "province": "Quảng Nam",
+      "district": "Đại Lộc",
       "ward": ""
     }
   },
@@ -2933,7 +2933,7 @@
     },
     "actual_result": {
       "province": "Cao Bằng",
-      "district": "",
+      "district": "Bảo Lâm",
       "ward": ""
     }
   },
@@ -2999,7 +2999,7 @@
     "actual_result": {
       "province": "Bắc Ninh",
       "district": "Tiên Du",
-      "ward": "Hoàn Sơn"
+      "ward": ""
     }
   },
   {
@@ -3010,7 +3010,7 @@
       "province": "Quảng Trị"
     },
     "actual_result": {
-      "province": "",
+      "province": "Quảng Trị",
       "district": "",
       "ward": ""
     }
@@ -3023,8 +3023,8 @@
       "province": "Kiên Giang"
     },
     "actual_result": {
-      "province": "An Giang",
-      "district": "Hà Tiên",
+      "province": "Kiên Giang",
+      "district": "",
       "ward": ""
     }
   },
@@ -3036,8 +3036,8 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
-      "district": "",
+      "province": "Bình Phước",
+      "district": "Phước Long",
       "ward": ""
     }
   },
@@ -3049,7 +3049,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Lai Châu",
       "district": "",
       "ward": ""
     }
@@ -3063,7 +3063,7 @@
     },
     "actual_result": {
       "province": "Cao Bằng",
-      "district": "Bảo Lâm",
+      "district": "",
       "ward": ""
     }
   },
@@ -3076,8 +3076,8 @@
     },
     "actual_result": {
       "province": "Long An",
-      "district": "",
-      "ward": ""
+      "district": "Châu Thành",
+      "ward": "Thanh Vĩnh Đông"
     }
   },
   {
@@ -3088,8 +3088,8 @@
       "province": "Hà Giang"
     },
     "actual_result": {
-      "province": "Hà Giang",
-      "district": "",
+      "province": "Thanh Hóa",
+      "district": "Mường Lát",
       "ward": ""
     }
   },
@@ -3115,8 +3115,8 @@
     },
     "actual_result": {
       "province": "Quảng Ngãi",
-      "district": "Quảng Ngãi",
-      "ward": "Tịnh Ấn Tây"
+      "district": "Tây Trà",
+      "ward": ""
     }
   },
   {
@@ -3141,7 +3141,7 @@
     },
     "actual_result": {
       "province": "Đồng Nai",
-      "district": "Xuân Lộc",
+      "district": "",
       "ward": ""
     }
   },
@@ -3166,8 +3166,8 @@
       "province": "Hải Dương"
     },
     "actual_result": {
-      "province": "Bình Dương",
-      "district": "",
+      "province": "Hải Dương",
+      "district": "Kinh Môn",
       "ward": ""
     }
   },
@@ -3192,7 +3192,7 @@
       "province": "Sơn La"
     },
     "actual_result": {
-      "province": "",
+      "province": "Lào Cai",
       "district": "",
       "ward": ""
     }
@@ -3218,7 +3218,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Thanh Hóa",
       "district": "",
       "ward": ""
     }
@@ -3231,7 +3231,7 @@
       "province": "Hà Nam"
     },
     "actual_result": {
-      "province": "Hà Tĩnh",
+      "province": "Nam Định",
       "district": "",
       "ward": ""
     }
@@ -3245,8 +3245,8 @@
     },
     "actual_result": {
       "province": "Sơn La",
-      "district": "",
-      "ward": ""
+      "district": "Thuận Châu",
+      "ward": "Phổng Lăng"
     }
   },
   {
@@ -3257,8 +3257,8 @@
       "province": "Thái Nguyên"
     },
     "actual_result": {
-      "province": "Phú Yên",
-      "district": "Sông Cầu",
+      "province": "Thái Nguyên",
+      "district": "",
       "ward": ""
     }
   },
@@ -3284,8 +3284,8 @@
     },
     "actual_result": {
       "province": "Bắc Ninh",
-      "district": "",
-      "ward": ""
+      "district": "Thuận Thành",
+      "ward": "Xuân Lâm"
     }
   },
   {
@@ -3297,8 +3297,8 @@
     },
     "actual_result": {
       "province": "Gia Lai",
-      "district": "KBang",
-      "ward": "Đông"
+      "district": "",
+      "ward": ""
     }
   },
   {
@@ -3309,7 +3309,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Hưng Yên",
       "district": "",
       "ward": ""
     }
@@ -3335,9 +3335,9 @@
       "province": "Lạng Sơn"
     },
     "actual_result": {
-      "province": "",
-      "district": "",
-      "ward": ""
+      "province": "Lạng Sơn",
+      "district": "Lạng Sơn",
+      "ward": "Chi Lăng"
     }
   },
   {
@@ -3362,7 +3362,7 @@
     },
     "actual_result": {
       "province": "Tây Ninh",
-      "district": "Tân Biên",
+      "district": "",
       "ward": ""
     }
   },
@@ -3387,8 +3387,8 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
-      "district": "",
+      "province": "Phú Yên",
+      "district": "Đồng Xuân",
       "ward": ""
     }
   },
@@ -3401,7 +3401,7 @@
     },
     "actual_result": {
       "province": "Thanh Hóa",
-      "district": "",
+      "district": "Thanh Hóa",
       "ward": ""
     }
   },
@@ -3413,8 +3413,8 @@
       "province": "Long An"
     },
     "actual_result": {
-      "province": "Vĩnh Long",
-      "district": "Vĩnh Hưng",
+      "province": "Long An",
+      "district": "",
       "ward": ""
     }
   },
@@ -3491,8 +3491,8 @@
       "province": "Thái Nguyên"
     },
     "actual_result": {
-      "province": "Phú Yên",
-      "district": "Phú Bình",
+      "province": "Thái Nguyên",
+      "district": "",
       "ward": ""
     }
   },
@@ -3506,7 +3506,7 @@
     "actual_result": {
       "province": "Bình Định",
       "district": "Hoài Nhơn",
-      "ward": "Hoài Mỹ"
+      "ward": "Hoài Hảo"
     }
   },
   {
@@ -3519,7 +3519,7 @@
     "actual_result": {
       "province": "Quảng Trị",
       "district": "Đa Krông",
-      "ward": "Đa Krông"
+      "ward": "Hướng Hiệp"
     }
   },
   {
@@ -3545,7 +3545,7 @@
     "actual_result": {
       "province": "Đồng Nai",
       "district": "Vĩnh Cửu",
-      "ward": "Vĩnh An"
+      "ward": "Tân An"
     }
   },
   {
@@ -3557,7 +3557,7 @@
     },
     "actual_result": {
       "province": "Thanh Hóa",
-      "district": "",
+      "district": "Bỉm Sơn",
       "ward": ""
     }
   },
@@ -3569,7 +3569,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Phú Yên",
       "district": "",
       "ward": ""
     }
@@ -3582,9 +3582,9 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
-      "district": "",
-      "ward": ""
+      "province": "Thanh Hóa",
+      "district": "Vĩnh Lộc",
+      "ward": "Vĩnh Tân"
     }
   },
   {
@@ -3595,7 +3595,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Phú Yên",
       "district": "",
       "ward": ""
     }
@@ -3608,8 +3608,8 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
-      "district": "",
+      "province": "Đắk Nông",
+      "district": "Krông Nô",
       "ward": ""
     }
   },
@@ -3621,7 +3621,7 @@
       "province": "Quảng Nam"
     },
     "actual_result": {
-      "province": "",
+      "province": "Nam Định",
       "district": "",
       "ward": ""
     }
@@ -3634,9 +3634,9 @@
       "province": "Hà Nam"
     },
     "actual_result": {
-      "province": "Hà Nam",
-      "district": "Lý Nhân",
-      "ward": "Chính Lý"
+      "province": "Nam Định",
+      "district": "",
+      "ward": ""
     }
   },
   {
@@ -3660,7 +3660,7 @@
       "province": "Phú Yên"
     },
     "actual_result": {
-      "province": "Tây Ninh",
+      "province": "Phú Yên",
       "district": "",
       "ward": ""
     }
@@ -3674,7 +3674,7 @@
     },
     "actual_result": {
       "province": "Kon Tum",
-      "district": "Đắk Tô",
+      "district": "",
       "ward": ""
     }
   },
@@ -3686,9 +3686,9 @@
       "province": "Hà Giang"
     },
     "actual_result": {
-      "province": "An Giang",
-      "district": "Long Xuyên",
-      "ward": ""
+      "province": "Hà Giang",
+      "district": "Vị Xuyên",
+      "ward": "Nông Trường Việt Lâm"
     }
   },
   {
@@ -3700,7 +3700,7 @@
     },
     "actual_result": {
       "province": "Hồ Chí Minh",
-      "district": "Hóc Môn",
+      "district": "",
       "ward": ""
     }
   },
@@ -3713,8 +3713,8 @@
     },
     "actual_result": {
       "province": "Gia Lai",
-      "district": "Đăk Đoa",
-      "ward": "Đăk Đoa"
+      "district": "",
+      "ward": ""
     }
   },
   {
@@ -3738,8 +3738,8 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
-      "district": "",
+      "province": "Hưng Yên",
+      "district": "Kim Động",
       "ward": ""
     }
   },
@@ -3765,8 +3765,8 @@
     },
     "actual_result": {
       "province": "Gia Lai",
-      "district": "Chư Sê",
-      "ward": "Chư Sê"
+      "district": "",
+      "ward": ""
     }
   },
   {
@@ -3778,8 +3778,8 @@
     },
     "actual_result": {
       "province": "Nam Định",
-      "district": "",
-      "ward": ""
+      "district": "Nam Định",
+      "ward": "Trần Quang Khải"
     }
   },
   {
@@ -3790,8 +3790,8 @@
       "province": "Quảng Nam"
     },
     "actual_result": {
-      "province": "Quảng Ngãi",
-      "district": "Đại Lộc",
+      "province": "Quảng Nam",
+      "district": "",
       "ward": ""
     }
   },
@@ -3829,7 +3829,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Thanh Hóa",
       "district": "",
       "ward": ""
     }
@@ -3844,7 +3844,7 @@
     "actual_result": {
       "province": "Quảng Bình",
       "district": "Lệ Thủy",
-      "ward": "NT Lệ Ninh"
+      "ward": "Sơn Thủy"
     }
   },
   {
@@ -3855,9 +3855,9 @@
       "province": "Kiên Giang"
     },
     "actual_result": {
-      "province": "An Giang",
-      "district": "An Biên",
-      "ward": "Nam Thái"
+      "province": "Kiên Giang",
+      "district": "",
+      "ward": ""
     }
   },
   {
@@ -3881,7 +3881,7 @@
       "province": "Phú Yên"
     },
     "actual_result": {
-      "province": "Tuyên Quang",
+      "province": "Phú Yên",
       "district": "",
       "ward": ""
     }
@@ -3894,8 +3894,8 @@
       "province": "Quảng Nam"
     },
     "actual_result": {
-      "province": "Quảng Ngãi",
-      "district": "",
+      "province": "Quảng Nam",
+      "district": "Núi Thành",
       "ward": ""
     }
   },
@@ -3920,7 +3920,7 @@
       "province": "Quảng Ninh"
     },
     "actual_result": {
-      "province": "Quảng Ngãi",
+      "province": "Quảng Ninh",
       "district": "Quảng Yên",
       "ward": "Minh Thành"
     }
@@ -3947,7 +3947,7 @@
     },
     "actual_result": {
       "province": "Thanh Hóa",
-      "district": "",
+      "district": "Bỉm Sơn",
       "ward": ""
     }
   },
@@ -3959,7 +3959,7 @@
       "province": "Quảng Nam"
     },
     "actual_result": {
-      "province": "Quảng Ngãi",
+      "province": "Quảng Nam",
       "district": "",
       "ward": ""
     }
@@ -3973,7 +3973,7 @@
     },
     "actual_result": {
       "province": "Lâm Đồng",
-      "district": "Đạ Tẻh",
+      "district": "",
       "ward": ""
     }
   },
@@ -3986,8 +3986,8 @@
     },
     "actual_result": {
       "province": "An Giang",
-      "district": "",
-      "ward": ""
+      "district": "An Phú",
+      "ward": "Nhơn Hội"
     }
   },
   {
@@ -4011,7 +4011,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Bình Dương",
       "district": "",
       "ward": ""
     }
@@ -4026,7 +4026,7 @@
     "actual_result": {
       "province": "Thanh Hóa",
       "district": "Triệu Sơn",
-      "ward": "An Nông"
+      "ward": "Tiến Nông"
     }
   },
   {
@@ -4038,7 +4038,7 @@
     },
     "actual_result": {
       "province": "Quảng Ngãi",
-      "district": "Quảng Ngãi",
+      "district": "",
       "ward": ""
     }
   },
@@ -4050,7 +4050,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Hưng Yên",
       "district": "",
       "ward": ""
     }
@@ -4076,7 +4076,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Phú Yên",
       "district": "",
       "ward": ""
     }
@@ -4154,9 +4154,9 @@
       "province": "Quảng Ninh"
     },
     "actual_result": {
-      "province": "Quảng Ngãi",
-      "district": "Uông Bí",
-      "ward": ""
+      "province": "Quảng Ninh",
+      "district": "Hoành Bồ",
+      "ward": "Sơn Dương"
     }
   },
   {
@@ -4167,9 +4167,9 @@
       "province": "Hà Nội"
     },
     "actual_result": {
-      "province": "",
-      "district": "",
-      "ward": ""
+      "province": "Hà Nội",
+      "district": "Mỹ Đức",
+      "ward": "Vạn Kim"
     }
   },
   {
@@ -4180,7 +4180,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Lạng Sơn",
       "district": "",
       "ward": ""
     }
@@ -4207,7 +4207,7 @@
     },
     "actual_result": {
       "province": "Đồng Tháp",
-      "district": "Hồng Ngự",
+      "district": "",
       "ward": ""
     }
   },
@@ -4219,7 +4219,7 @@
       "province": "Sơn La"
     },
     "actual_result": {
-      "province": "",
+      "province": "Cà Mau",
       "district": "",
       "ward": ""
     }
@@ -4232,8 +4232,8 @@
       "province": "Tiền Giang"
     },
     "actual_result": {
-      "province": "An Giang",
-      "district": "Tịnh Biên",
+      "province": "Tiền Giang",
+      "district": "",
       "ward": ""
     }
   },
@@ -4245,9 +4245,9 @@
       "province": "Quảng Nam"
     },
     "actual_result": {
-      "province": "Quảng Ngãi",
-      "district": "",
-      "ward": ""
+      "province": "Quảng Nam",
+      "district": "Núi Thành",
+      "ward": "Tam Xuân I"
     }
   },
   {
@@ -4259,7 +4259,7 @@
     },
     "actual_result": {
       "province": "Hà Nội",
-      "district": "Mỹ Đức",
+      "district": "",
       "ward": ""
     }
   },
@@ -4272,7 +4272,7 @@
     },
     "actual_result": {
       "province": "Nghệ An",
-      "district": "Đô Lương",
+      "district": "",
       "ward": ""
     }
   },
@@ -4336,8 +4336,8 @@
       "province": "Quảng Nam"
     },
     "actual_result": {
-      "province": "Quảng Ngãi",
-      "district": "Duy Xuyên",
+      "province": "Quảng Nam",
+      "district": "Bắc Trà My",
       "ward": ""
     }
   },
@@ -4350,8 +4350,8 @@
     },
     "actual_result": {
       "province": "Đắk Lắk",
-      "district": "Krông Năng",
-      "ward": "Krông Năng"
+      "district": "",
+      "ward": ""
     }
   },
   {
@@ -4388,7 +4388,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Phú Yên",
       "district": "",
       "ward": ""
     }
@@ -4402,7 +4402,7 @@
     },
     "actual_result": {
       "province": "Lạng Sơn",
-      "district": "Bắc Sơn",
+      "district": "",
       "ward": ""
     }
   },
@@ -4429,7 +4429,7 @@
     "actual_result": {
       "province": "Phú Thọ",
       "district": "Thanh Sơn",
-      "ward": "Tinh Nhuệ"
+      "ward": "Sơn Hùng"
     }
   },
   {
@@ -4440,8 +4440,8 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
-      "district": "",
+      "province": "Kiên Giang",
+      "district": "Rạch Giá",
       "ward": ""
     }
   },
@@ -4480,8 +4480,8 @@
     },
     "actual_result": {
       "province": "Đồng Nai",
-      "district": "Trảng Bom",
-      "ward": "Trảng Bom"
+      "district": "",
+      "ward": ""
     }
   },
   {
@@ -4506,8 +4506,8 @@
     },
     "actual_result": {
       "province": "Bắc Kạn",
-      "district": "",
-      "ward": ""
+      "district": "Bạch Thông",
+      "ward": "Nguyên Phúc"
     }
   },
   {
@@ -4520,7 +4520,7 @@
     "actual_result": {
       "province": "Nghệ An",
       "district": "Cửa Lò",
-      "ward": ""
+      "ward": "Nghi Thuỷ"
     }
   },
   {
@@ -4532,7 +4532,7 @@
     },
     "actual_result": {
       "province": "Hà Nội",
-      "district": "",
+      "district": "Thanh Xuân",
       "ward": ""
     }
   },
@@ -4544,8 +4544,8 @@
       "province": "Kiên Giang"
     },
     "actual_result": {
-      "province": "An Giang",
-      "district": "An Minh",
+      "province": "Kiên Giang",
+      "district": "U Minh Thượng",
       "ward": ""
     }
   },
@@ -4557,7 +4557,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Phú Yên",
       "district": "",
       "ward": ""
     }
@@ -4583,9 +4583,9 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
-      "district": "",
-      "ward": ""
+      "province": "An Giang",
+      "district": "Châu Thành",
+      "ward": "Tân Phú"
     }
   },
   {
@@ -4596,9 +4596,9 @@
       "province": "Phú Yên"
     },
     "actual_result": {
-      "province": "Tuyên Quang",
+      "province": "Phú Yên",
       "district": "Sơn Hòa",
-      "ward": ""
+      "ward": "Sơn Hội"
     }
   },
   {
@@ -4609,7 +4609,7 @@
       "province": "Hà Giang"
     },
     "actual_result": {
-      "province": "An Giang",
+      "province": "Hà Giang",
       "district": "Hoàng Su Phì",
       "ward": ""
     }
@@ -4622,7 +4622,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Thanh Hóa",
       "district": "",
       "ward": ""
     }
@@ -4635,9 +4635,9 @@
       "province": "Quảng Nam"
     },
     "actual_result": {
-      "province": "Quảng Ngãi",
-      "district": "",
-      "ward": ""
+      "province": "Quảng Nam",
+      "district": "Tây Giang",
+      "ward": "Chơm"
     }
   },
   {
@@ -4662,7 +4662,7 @@
     },
     "actual_result": {
       "province": "Bình Phước",
-      "district": "",
+      "district": "Bình Long",
       "ward": ""
     }
   },
@@ -4675,7 +4675,7 @@
     },
     "actual_result": {
       "province": "Nghệ An",
-      "district": "Quỳ Châu",
+      "district": "",
       "ward": ""
     }
   },
@@ -4688,8 +4688,8 @@
     },
     "actual_result": {
       "province": "Hưng Yên",
-      "district": "Văn Giang",
-      "ward": "Văn Giang"
+      "district": "",
+      "ward": ""
     }
   },
   {
@@ -4701,8 +4701,8 @@
     },
     "actual_result": {
       "province": "Quảng Ngãi",
-      "district": "Quảng Ngãi",
-      "ward": ""
+      "district": "Ba Tơ",
+      "ward": "Ba Tiêu"
     }
   },
   {
@@ -4714,8 +4714,8 @@
     },
     "actual_result": {
       "province": "Hồ Chí Minh",
-      "district": "Bình Chánh",
-      "ward": "Tân Kiên"
+      "district": "Bình Thạnh",
+      "ward": ""
     }
   },
   {
@@ -4726,9 +4726,9 @@
       "province": "Hà Nam"
     },
     "actual_result": {
-      "province": "Thanh Hóa",
-      "district": "Thanh Liêm",
-      "ward": "Thanh Hà"
+      "province": "Hà Nam",
+      "district": "",
+      "ward": ""
     }
   },
   {
@@ -4740,7 +4740,7 @@
     },
     "actual_result": {
       "province": "Hải Dương",
-      "district": "Chí Linh",
+      "district": "",
       "ward": ""
     }
   },
@@ -4753,8 +4753,8 @@
     },
     "actual_result": {
       "province": "Hà Nội",
-      "district": "",
-      "ward": ""
+      "district": "Mê Linh",
+      "ward": "Tam Đồng"
     }
   },
   {
@@ -4780,7 +4780,7 @@
     "actual_result": {
       "province": "An Giang",
       "district": "Tịnh Biên",
-      "ward": ""
+      "ward": "An Phú"
     }
   },
   {
@@ -4804,7 +4804,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Phú Yên",
       "district": "",
       "ward": ""
     }
@@ -4831,7 +4831,7 @@
     },
     "actual_result": {
       "province": "Ninh Bình",
-      "district": "Nho Quan",
+      "district": "",
       "ward": ""
     }
   },
@@ -4845,7 +4845,7 @@
     "actual_result": {
       "province": "Bến Tre",
       "district": "Giồng Trôm",
-      "ward": ""
+      "ward": "Mỹ Thạnh"
     }
   },
   {
@@ -4882,7 +4882,7 @@
       "province": "Khánh Hòa"
     },
     "actual_result": {
-      "province": "",
+      "province": "Thanh Hóa",
       "district": "",
       "ward": ""
     }
@@ -4895,8 +4895,8 @@
       "province": "Hà Giang"
     },
     "actual_result": {
-      "province": "An Giang",
-      "district": "",
+      "province": "Hà Giang",
+      "district": "Đồng Văn",
       "ward": ""
     }
   },
@@ -4908,7 +4908,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Lạng Sơn",
       "district": "",
       "ward": ""
     }
@@ -4923,7 +4923,7 @@
     "actual_result": {
       "province": "Đắk Nông",
       "district": "Krông Nô",
-      "ward": ""
+      "ward": "Đắk Nang"
     }
   },
   {
@@ -4934,9 +4934,9 @@
       "province": "Quảng Nam"
     },
     "actual_result": {
-      "province": "Quảng Ngãi",
+      "province": "Quảng Nam",
       "district": "Điện Bàn",
-      "ward": ""
+      "ward": "Điện Hồng"
     }
   },
   {
@@ -4947,9 +4947,9 @@
       "province": "Quảng Nam"
     },
     "actual_result": {
-      "province": "Quảng Ngãi",
-      "district": "Duy Xuyên",
-      "ward": "Duy Thu"
+      "province": "Quảng Nam",
+      "district": "",
+      "ward": ""
     }
   },
   {
@@ -4960,7 +4960,7 @@
       "province": "Quảng Ngãi"
     },
     "actual_result": {
-      "province": "Hà Tĩnh",
+      "province": "Quảng Ngãi",
       "district": "",
       "ward": ""
     }
@@ -4986,8 +4986,8 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
-      "district": "",
+      "province": "Thanh Hóa",
+      "district": "Lang Chánh",
       "ward": ""
     }
   },
@@ -5001,7 +5001,7 @@
     "actual_result": {
       "province": "Lâm Đồng",
       "district": "Bảo Lộc",
-      "ward": ""
+      "ward": "Lộc Châu"
     }
   },
   {
@@ -5012,7 +5012,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Phú Yên",
       "district": "",
       "ward": ""
     }
@@ -5027,7 +5027,7 @@
     "actual_result": {
       "province": "Thái Bình",
       "district": "Tiền Hải",
-      "ward": "Đông Cơ"
+      "ward": "Phương Công"
     }
   },
   {
@@ -5038,9 +5038,9 @@
       "province": "Hậu Giang"
     },
     "actual_result": {
-      "province": "An Giang",
+      "province": "Hậu Giang",
       "district": "Long Mỹ",
-      "ward": "Trà Lồng"
+      "ward": "Lương Nghĩa"
     }
   },
   {
@@ -5051,7 +5051,7 @@
       "province": "Kiên Giang"
     },
     "actual_result": {
-      "province": "An Giang",
+      "province": "Kiên Giang",
       "district": "An Biên",
       "ward": "Tây Yên"
     }
@@ -5065,8 +5065,8 @@
     },
     "actual_result": {
       "province": "Yên Bái",
-      "district": "Văn Yên",
-      "ward": "Yên Thái"
+      "district": "Yên Bái",
+      "ward": ""
     }
   },
   {
@@ -5077,9 +5077,9 @@
       "province": "Quảng Nam"
     },
     "actual_result": {
-      "province": "Quảng Ngãi",
+      "province": "Quảng Nam",
       "district": "Duy Xuyên",
-      "ward": ""
+      "ward": "Duy Phú"
     }
   },
   {
@@ -5090,9 +5090,9 @@
       "province": "Long An"
     },
     "actual_result": {
-      "province": "Vĩnh Long",
+      "province": "Long An",
       "district": "Cần Giuộc",
-      "ward": ""
+      "ward": "Phước Vĩnh Đông"
     }
   },
   {
@@ -5103,9 +5103,9 @@
       "province": "Hà Tĩnh"
     },
     "actual_result": {
-      "province": "Hà Tĩnh",
-      "district": "Thạch Hà",
-      "ward": "Thạch Hà"
+      "province": "Thanh Hóa",
+      "district": "Thạch Thành",
+      "ward": ""
     }
   },
   {
@@ -5142,7 +5142,7 @@
       "province": "Quảng Nam"
     },
     "actual_result": {
-      "province": "Quảng Ngãi",
+      "province": "Quảng Nam",
       "district": "",
       "ward": ""
     }
@@ -5155,8 +5155,8 @@
       "province": "Phú Yên"
     },
     "actual_result": {
-      "province": "Tuyên Quang",
-      "district": "Tuy An",
+      "province": "Phú Yên",
+      "district": "",
       "ward": ""
     }
   },
@@ -5182,7 +5182,7 @@
     },
     "actual_result": {
       "province": "Sơn La",
-      "district": "Mường La",
+      "district": "",
       "ward": ""
     }
   },
@@ -5194,7 +5194,7 @@
       "province": "Phú Yên"
     },
     "actual_result": {
-      "province": "Bình Phước",
+      "province": "Phú Yên",
       "district": "Tuy Hoà",
       "ward": ""
     }
@@ -5207,7 +5207,7 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
+      "province": "Phú Yên",
       "district": "",
       "ward": ""
     }
@@ -5233,8 +5233,8 @@
       "province": "Ninh Thuận"
     },
     "actual_result": {
-      "province": "Bình Thuận",
-      "district": "",
+      "province": "Ninh Thuận",
+      "district": "Phan Rang-Tháp Chàm",
       "ward": ""
     }
   },
@@ -5272,7 +5272,7 @@
       "province": "Vĩnh Phúc"
     },
     "actual_result": {
-      "province": "",
+      "province": "Vĩnh Phúc",
       "district": "",
       "ward": ""
     }
@@ -5299,8 +5299,8 @@
     },
     "actual_result": {
       "province": "Đắk Lắk",
-      "district": "Ea Súp",
-      "ward": "Ea Súp"
+      "district": "",
+      "ward": ""
     }
   },
   {
@@ -5311,8 +5311,8 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
-      "district": "",
+      "province": "Quảng Trị",
+      "district": "Vĩnh Linh",
       "ward": ""
     }
   },
@@ -5326,7 +5326,7 @@
     "actual_result": {
       "province": "Thái Bình",
       "district": "Quỳnh Phụ",
-      "ward": "Quỳnh Hoa"
+      "ward": "Quỳnh Hội"
     }
   },
   {
@@ -5337,7 +5337,7 @@
       "province": "Hà Giang"
     },
     "actual_result": {
-      "province": "An Giang",
+      "province": "Hà Giang",
       "district": "",
       "ward": ""
     }
@@ -5350,8 +5350,8 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
-      "district": "",
+      "province": "Khánh Hòa",
+      "district": "Trường Sa",
       "ward": ""
     }
   },
@@ -5365,7 +5365,7 @@
     "actual_result": {
       "province": "Gia Lai",
       "district": "Phú Thiện",
-      "ward": ""
+      "ward": "Ia Ake"
     }
   },
   {
@@ -5377,8 +5377,8 @@
     },
     "actual_result": {
       "province": "Hải Phòng",
-      "district": "",
-      "ward": ""
+      "district": "An Lão",
+      "ward": "Thái Sơn"
     }
   },
   {
@@ -5415,9 +5415,9 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
-      "district": "",
-      "ward": ""
+      "province": "Phú Yên",
+      "district": "Đồng Xuân",
+      "ward": "Phú Mỡ"
     }
   },
   {
@@ -5495,7 +5495,7 @@
     "actual_result": {
       "province": "Yên Bái",
       "district": "Yên Bình",
-      "ward": ""
+      "ward": "Cảm Nhân"
     }
   },
   {
@@ -5507,7 +5507,7 @@
     },
     "actual_result": {
       "province": "Đắk Nông",
-      "district": "",
+      "district": "Đăk Glong",
       "ward": ""
     }
   },
@@ -5534,7 +5534,7 @@
     "actual_result": {
       "province": "Hưng Yên",
       "district": "Phù Cừ",
-      "ward": ""
+      "ward": "Đoàn Đào"
     }
   },
   {
@@ -5545,9 +5545,9 @@
       "province": "Hà Tĩnh"
     },
     "actual_result": {
-      "province": "Hà Tĩnh",
-      "district": "Hương Khê",
-      "ward": "Hương Đô"
+      "province": "Thanh Hóa",
+      "district": "",
+      "ward": ""
     }
   },
   {
@@ -5559,7 +5559,7 @@
     },
     "actual_result": {
       "province": "Bình Định",
-      "district": "Hoài Ân",
+      "district": "",
       "ward": ""
     }
   },
@@ -5572,8 +5572,8 @@
     },
     "actual_result": {
       "province": "Hải Phòng",
-      "district": "",
-      "ward": ""
+      "district": "Kiến An",
+      "ward": "Tràng Minh"
     }
   },
   {
@@ -5598,8 +5598,8 @@
     },
     "actual_result": {
       "province": "Bạc Liêu",
-      "district": "Bạc Liêu",
-      "ward": ""
+      "district": "Đông Hải",
+      "ward": "Điền Hải"
     }
   },
   {
@@ -5611,7 +5611,7 @@
     },
     "actual_result": {
       "province": "Gia Lai",
-      "district": "KBang",
+      "district": "",
       "ward": ""
     }
   },
@@ -5663,8 +5663,8 @@
     },
     "actual_result": {
       "province": "Hà Nội",
-      "district": "Ba Vì",
-      "ward": "Tòng Bạt"
+      "district": "",
+      "ward": ""
     }
   },
   {
@@ -5676,7 +5676,7 @@
     },
     "actual_result": {
       "province": "Nghệ An",
-      "district": "Diễn Châu",
+      "district": "",
       "ward": ""
     }
   },
@@ -5688,8 +5688,8 @@
       "province": "Đồng Tháp"
     },
     "actual_result": {
-      "province": "Hà Tĩnh",
-      "district": "",
+      "province": "Đồng Tháp",
+      "district": "Châu Thành",
       "ward": ""
     }
   },
@@ -5701,9 +5701,9 @@
       "province": "Kiên Giang"
     },
     "actual_result": {
-      "province": "An Giang",
+      "province": "Kiên Giang",
       "district": "An Minh",
-      "ward": ""
+      "ward": "Đông Thạnh"
     }
   },
   {
@@ -5727,8 +5727,8 @@
       "province": "Thừa Thiên Huế"
     },
     "actual_result": {
-      "province": "",
-      "district": "",
+      "province": "Thừa Thiên Huế",
+      "district": "Hương Thủy",
       "ward": ""
     }
   },
@@ -5753,7 +5753,7 @@
       "province": "Quảng Nam"
     },
     "actual_result": {
-      "province": "Quảng Ngãi",
+      "province": "Quảng Nam",
       "district": "Quế Sơn",
       "ward": ""
     }
@@ -5766,9 +5766,9 @@
       "province": "Thanh Hóa"
     },
     "actual_result": {
-      "province": "Hà Tĩnh",
-      "district": "",
-      "ward": ""
+      "province": "Thanh Hóa",
+      "district": "Nga Sơn",
+      "ward": "Nga Yên"
     }
   },
   {
@@ -5792,7 +5792,7 @@
       "province": "Quảng Bình"
     },
     "actual_result": {
-      "province": "",
+      "province": "Quảng Bình",
       "district": "",
       "ward": ""
     }
@@ -5805,9 +5805,9 @@
       "province": ""
     },
     "actual_result": {
-      "province": "",
-      "district": "",
-      "ward": ""
+      "province": "An Giang",
+      "district": "Tịnh Biên",
+      "ward": "Tân Lợi"
     }
   },
   {
@@ -5819,7 +5819,7 @@
     },
     "actual_result": {
       "province": "Nghệ An",
-      "district": "",
+      "district": "Kỳ Sơn",
       "ward": ""
     }
   },
