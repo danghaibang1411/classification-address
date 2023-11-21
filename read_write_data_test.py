@@ -1,4 +1,5 @@
 import json
+import re
 from pathlib import Path
 
 from unidecode import unidecode
@@ -62,25 +63,12 @@ def export_to_json(file_path, text, province, district, ward):
     existing_data.append(new_data)
 
     # Write the updated data back to output.json
-    with open("output.json", "w", encoding="utf-8") as output_file:
+    with open(file_path, "w", encoding="utf-8") as output_file:
         json.dump(existing_data, output_file, ensure_ascii=False, indent=2)
 
     print("New data has been added to output.json")
 
 
 def parser(text):
-    values_after_comma = []
-    for text in text:
-        # Tìm vị trí của dấu phẩy cuối cùng trong chuỗi
-        last_comma_index = text.rfind(",")
-
-        if last_comma_index != -1:  # Nếu có dấu phẩy trong chuỗi
-            # Lấy phần tử phía sau dấu phẩy và loại bỏ khoảng trắng ở đầu chuỗi kết quả
-            value_after_comma = text[last_comma_index + 1 :].lstrip()
-            values_after_comma.append(value_after_comma)
-        else:
-            values_after_comma.append(
-                text
-            )  # Nếu không có dấu phẩy, thêm chuỗi rỗng vào mảng kết quả
-
-    return values_after_comma
+    result_array = [token.strip() for token in re.split(r'[,\s]+', text)]
+    return result_array
