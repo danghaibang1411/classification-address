@@ -53,11 +53,16 @@ result_list_wards = []
 def main():
     all_record = 0
     correct_record = 0
+    correct_count = 0
+    all_count = 0
     # Record starting time
     start_time = time.time()
     name_cities = ""
     name_districts = ""
     name_wards = ""
+    is_cities_empty = False
+    is_districts_empty = False
+    is_wards_empty = False
     data = ""
     open('data/output_correct.json', 'w').close()
     data = []
@@ -76,11 +81,13 @@ def main():
             name_cities = ""
             name_districts = ""
             name_wards = ""
+            is_cities_empty = False
+            is_districts_empty = False
+            is_wards_empty = False
             result_list_cities.clear()
             result_list_districts.clear()
             result_list_wards.clear()
             data = line_data.get("text")
-            # data = "Ấp 17 Long Trung, Cai Lậy, Tiền Giang"
             result_array = [token.strip() for token in
                             re.split(r'^[a-z]+|[A-Z][^A-Z]*(?<=[a-z])(?=[A-Z])|[,\s.]+', data)]
             result_array = all_lower(result_array)
@@ -130,6 +137,8 @@ def main():
                     if i < 0:
                         continue
                 name_cities = result_for_cities[0].get('name')
+            else:
+                is_cities_empty  =True
             for each_name_cities in result_for_cities:
                 code = each_name_cities.get("code")
                 for list_dis in list_districts:
@@ -182,6 +191,8 @@ def main():
                     if i < 0:
                         continue
                 name_districts = result_for_districts[0].get('name')
+            else:
+                is_districts_empty = True
             for each_name_district in result_for_districts:
                 code = each_name_district.get("code")
                 for list_ward in list_wards:
@@ -231,8 +242,10 @@ def main():
 
             if len(result_for_wards) == 1 and not is_worst:
                 arr = result_for_wards[0].get('path').split(', ')
-                name_cities = arr[2]
-                name_districts = arr[1]
+                if not is_cities_empty:
+                    name_cities = arr[2]
+                if not is_districts_empty:
+                    name_districts = arr[1]
                 name_wards = arr[0]
             elif len(result_for_wards) > 0:
                 name_wards = result_for_wards[0].get('name')
@@ -241,6 +254,13 @@ def main():
             end_time_line = time.time()
             execution_time_line = end_time_line - start_time_line
             expected_result = line_data.get('result')
+            all_count = all_count + 3
+            if expected_result.get('province') == name_cities and len(expected_result.get('province')) == len(name_cities):
+                correct_count = correct_count + 1
+            if expected_result.get('district') == name_districts and len(expected_result.get('district')) == len(name_districts):
+                correct_count = correct_count + 1
+            if expected_result.get('ward') == name_wards and len(expected_result.get('ward')) == len(name_wards):
+                correct_count = correct_count + 1
             if ((name_cities == expected_result.get('province') or expected_result.get('province') == "")
                     and (name_districts == expected_result.get('district') or expected_result.get('district') == "")
                     and (name_wards == expected_result.get('ward') or expected_result.get('ward') == "")):
@@ -250,6 +270,8 @@ def main():
             else:
                 export_to_json('data/output_incorrect.json', data, regex_text, execution_time_line,
                                expected_result, name_cities, name_districts, name_wards)
+    print("Correct: ", correct_count, "/", all_count)
+    print("Point = ", (correct_count / all_count) * 10)
     print("Classification correct: ", correct_record, "/", all_record)
     print("Percent correct = ", (correct_record / all_record) * 100)
 
