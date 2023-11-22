@@ -65,7 +65,7 @@ def export_to_json(file_path, text,regex_text, exec_time, expected_result, provi
     # Add the new data to the existing list
     existing_data.append(new_data)
 
-    # Write the updated data back to output.json
+    # Write the updated data back
     with open(file_path, "w", encoding="utf-8") as output_file:
         json.dump(existing_data, output_file, ensure_ascii=False, indent=2)
 

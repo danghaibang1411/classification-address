@@ -6,9 +6,6 @@ import time
 from LCSubStr import LCSubStr
 
 from read_write_data_test import export_to_json
-from address_correction import AddressCorrection
-
-address_correction = AddressCorrection()
 
 abbreviation_mapping = {
     'thành phố': 'tp',
@@ -83,7 +80,6 @@ def main():
             result_list_districts.clear()
             result_list_wards.clear()
             data = line_data.get("text")
-            # data = "Thi trấ Ea. Knốp,H. Ea Kar,"
             result_array = [token.strip() for token in
                             re.split(r'^[a-z]+|[A-Z][^A-Z]*(?<=[a-z])(?=[A-Z])|[,\s.]+', data)]
             result_array = all_lower(result_array)
