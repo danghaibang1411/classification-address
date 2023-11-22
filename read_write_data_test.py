@@ -35,7 +35,7 @@ def get_text_input():
     return text_values_without_diacritics
 
 
-def export_to_json(file_path, text,correct_value,regex_text, expected_result, province, district, ward):
+def export_to_json(file_path, text,regex_text, exec_time, expected_result, province, district, ward):
     # Sample values for the variables
     text_value = text
     province_value = province
@@ -53,8 +53,8 @@ def export_to_json(file_path, text,correct_value,regex_text, expected_result, pr
     # Create a dictionary with the specified format
     new_data = {
         "raw_text": text_value,
-        "cor_text": correct_value,
         "reg_text": regex_text,
+        "exec_time": exec_time,
         "expected_result": expected_result,
         "actual_result": {
             "province": province_value,

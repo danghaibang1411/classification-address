@@ -1,0 +1,2507 @@
+[
+  {
+    "raw_text": "284DBis Ng Văn Giáo, P3, Mỹ Tho, T.Giang.",
+    "reg_text": "['284dbis', 'ng', 'van', 'giao', 'p3', 'my', 'tho', 'giang']",
+    "exec_time": 0.008964776992797852,
+    "expected_result": {
+      "province": "Tiền Giang",
+      "district": "Mỹ Tho",
+      "ward": "3"
+    },
+    "actual_result": {
+      "province": "An Giang",
+      "district": "Thoại Sơn",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "TDP Hạ 10, Tây Tựu Bắc Từ Liêm, Hà Nội",
+    "reg_text": "['tdp', 'ha', '10', 'tay', 'tuu', 'bac', 'tu', 'liem', 'ha', 'noi']",
+    "exec_time": 0.0075910091400146484,
+    "expected_result": {
+      "province": "Hà Nội",
+      "district": "Bắc Từ Liêm",
+      "ward": "Tây Tựu"
+    },
+    "actual_result": {
+      "province": "Hà Nội",
+      "district": "Nam Từ Liêm",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "285 B/1A Bình Gĩa Phường 8,Vũng Tàu,Bà Rịa - Vũng Tàu",
+    "reg_text": "['285', 'b/1a', 'binh', 'gia', '8', 'vung', 'tau', 'ba', 'ria', 'vung', 'tau']",
+    "exec_time": 0.0077288150787353516,
+    "expected_result": {
+      "province": "Bà Rịa - Vũng Tàu",
+      "district": "Vũng Tàu",
+      "ward": "8"
+    },
+    "actual_result": {
+      "province": "Bà Rịa - Vũng Tàu",
+      "district": "Bà Rịa",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Mỹ Hòa xã Mỹ Long, H.Cai Lậy, Tiền Giang",
+    "reg_text": "['my', 'hoa', 'my', 'long', 'cai', 'lay', 'tien', 'giang']",
+    "exec_time": 0.008313179016113281,
+    "expected_result": {
+      "province": "Tiền Giang",
+      "district": "Cai Lậy",
+      "ward": "Mỹ Long"
+    },
+    "actual_result": {
+      "province": "Tiền Giang",
+      "district": "Cai Lậy",
+      "ward": "Long Khánh"
+    }
+  },
+  {
+    "raw_text": "KP Phước Trung Thị trấn Đất Đỏ, Đất Đỏ, Bà Rịa - Vũng Tàu",
+    "reg_text": "['kp', 'phuoc', 'trung', 'dat', 'do', 'dat', 'do', 'ba', 'ria', 'vung', 'tau']",
+    "exec_time": 0.007492780685424805,
+    "expected_result": {
+      "province": "Bà Rịa - Vũng Tàu",
+      "district": "Đất Đỏ",
+      "ward": "Đất Đỏ"
+    },
+    "actual_result": {
+      "province": "Bà Rịa - Vũng Tàu",
+      "district": "Bà Rịa",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "55/30 Nguyễn - Thượng Hiền,P5,BT, TP. Hồ Chí Minh",
+    "reg_text": "['55/30', 'nguyen', 'thuong', 'hien', 'p5', 'bt', 'chi', 'minh']",
+    "exec_time": 0.007550954818725586,
+    "expected_result": {
+      "province": "Hồ Chí Minh",
+      "district": "Bình Thạnh",
+      "ward": "5"
+    },
+    "actual_result": {
+      "province": "Hồ Chí Minh",
+      "district": "5",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "3/107 Ngõ Quỳnh Thanh Nhàn, Hai Bà Trưng, Hà Nội",
+    "reg_text": "['3/107', 'ngo', 'quynh', 'thanh', 'nhan', 'hai', 'ba', 'trung', 'ha', 'noi']",
+    "exec_time": 0.008267879486083984,
+    "expected_result": {
+      "province": "Hà Nội",
+      "district": "Hai Bà Trưng",
+      "ward": "Thanh Nhàn"
+    },
+    "actual_result": {
+      "province": "Hà Nội",
+      "district": "Hai Bà Trưng",
+      "ward": "Minh Khai"
+    }
+  },
+  {
+    "raw_text": "Châu Thạnh Châu Phú A, Châu Đốc, An Giang",
+    "reg_text": "['chau', 'thanh', 'chau', 'phu', 'chau', 'doc', 'an', 'giang']",
+    "exec_time": 0.008767843246459961,
+    "expected_result": {
+      "province": "An Giang",
+      "district": "Châu Đốc",
+      "ward": "Châu Phú A"
+    },
+    "actual_result": {
+      "province": "An Giang",
+      "district": "Châu Đốc",
+      "ward": "Châu Phú B"
+    }
+  },
+  {
+    "raw_text": "Liên Bình, Hải Bình Tĩnh Gia, Thanh Hóa",
+    "reg_text": "['lien', 'binh', 'hai', 'binh', 'gia', 'thanh', 'hoa']",
+    "exec_time": 0.012474775314331055,
+    "expected_result": {
+      "province": "Thanh Hóa",
+      "district": "Tĩnh Gia",
+      "ward": "Hải Bình"
+    },
+    "actual_result": {
+      "province": "Thanh Hóa",
+      "district": "Tĩnh Gia",
+      "ward": "Định Hải"
+    }
+  },
+  {
+    "raw_text": "Ấp 17 Long Trung, Cai Lậy, Tiền Giang",
+    "reg_text": "['ap', '17', 'long', 'trung', 'cai', 'lay', 'tien', 'giang']",
+    "exec_time": 0.008417129516601562,
+    "expected_result": {
+      "province": "Tiền Giang",
+      "district": "Cai Lậy",
+      "ward": "Long Trung"
+    },
+    "actual_result": {
+      "province": "Tiền Giang",
+      "district": "Cai Lậy",
+      "ward": "Mỹ Hạnh Trung"
+    }
+  },
+  {
+    "raw_text": "55/21/1 Khu phố 2, Thới An Quận 12, TP. Hồ Chí Minh",
+    "reg_text": "['55/21/1', 'pho', '2', 'thoi', 'an', '12', 'chi', 'minh']",
+    "exec_time": 0.00764012336730957,
+    "expected_result": {
+      "province": "Hồ Chí Minh",
+      "district": "12",
+      "ward": "Thới An"
+    },
+    "actual_result": {
+      "province": "Hồ Chí Minh",
+      "district": "1",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "A:12A.21BlockA C/c BCA,P.AnKhánh,TP.Thủ Đức, TP. HCM",
+    "reg_text": "['a:12a', '21', 'c/c', 'bca', 'khanh', 'thu', 'duc', 'hcm']",
+    "exec_time": 0.0022749900817871094,
+    "expected_result": {
+      "province": "Hồ Chí Minh",
+      "district": "Thủ Đức",
+      "ward": ""
+    },
+    "actual_result": {
+      "province": "",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "thôn 2 Suối Rao, Châu Đức, Bà Rịa - Vũng Tàu",
+    "reg_text": "['on', '2', 'suoi', 'rao', 'chau', 'duc', 'ba', 'ria', 'vung', 'tau']",
+    "exec_time": 0.0073168277740478516,
+    "expected_result": {
+      "province": "Bà Rịa - Vũng Tàu",
+      "district": "Châu Đức",
+      "ward": "Suối Rao"
+    },
+    "actual_result": {
+      "province": "Bà Rịa - Vũng Tàu",
+      "district": "Bà Rịa",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "14.5 Block A2, The Mansion, ĐS 7,KDC 13E,Ấp 5,PP,BC, TP.HCM",
+    "reg_text": "['14', '5', 'block', 'a2', 'the', 'mansion', 'ds', '7', 'kdc', '13e', 'ap', '5', 'pp', 'bc', 'hcm']",
+    "exec_time": 0.0023348331451416016,
+    "expected_result": {
+      "province": "Hồ Chí Minh",
+      "district": "",
+      "ward": ""
+    },
+    "actual_result": {
+      "province": "",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "31B Sư Vạn Hạnh, Phường 3 Quận 10, TP. Hồ Chí Minh",
+    "reg_text": "['31b', 'su', 'van', 'hanh', '3', '10', 'chi', 'minh']",
+    "exec_time": 0.007359981536865234,
+    "expected_result": {
+      "province": "Hồ Chí Minh",
+      "district": "10",
+      "ward": "3"
+    },
+    "actual_result": {
+      "province": "Hồ Chí Minh",
+      "district": "1",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "191A Nguyễn Thị Định An Phú, Quận 2, Tp Hồ Chí Minh",
+    "reg_text": "['191a', 'nguyen', 'dinh', 'an', 'phu', '2', 'chi', 'minh']",
+    "exec_time": 0.007560253143310547,
+    "expected_result": {
+      "province": "Hồ Chí Minh",
+      "district": "2",
+      "ward": "An Phú"
+    },
+    "actual_result": {
+      "province": "Hồ Chí Minh",
+      "district": "2",
+      "ward": "Bình An"
+    }
+  },
+  {
+    "raw_text": "Số 1410 Đường 30/4, Phường 12, Thành phố Vũng Tàu, Bà Rịa - Vũng Tàu.",
+    "reg_text": "['so', '1410', 'duong', '30/4', '12', 'thanh', 'pho', 'vung', 'tau', 'ba', 'ria', 'vung', 'tau']",
+    "exec_time": 0.007359981536865234,
+    "expected_result": {
+      "province": "Bà Rịa - Vũng Tàu",
+      "district": "Vũng Tàu",
+      "ward": "12"
+    },
+    "actual_result": {
+      "province": "Bà Rịa - Vũng Tàu",
+      "district": "Bà Rịa",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Phường Lê Hồng Phong Tp. Quy Nhơn, tỉnh Bình Định.",
+    "reg_text": "['le', 'hong', 'phong', 'quy', 'nhon', 'binh', 'dinh']",
+    "exec_time": 0.0078029632568359375,
+    "expected_result": {
+      "province": "Bình Định",
+      "district": "Quy Nhơn",
+      "ward": "Lê Hồng Phong"
+    },
+    "actual_result": {
+      "province": "Bình Định",
+      "district": "An Nhơn",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "7/3/4/16 Thành Thái Phường 14, Quận 10, TP. Hồ Chí Minh",
+    "reg_text": "['7/3/4/16', 'thanh', 'thai', '14', '10', 'chi', 'minh']",
+    "exec_time": 0.007428169250488281,
+    "expected_result": {
+      "province": "Hồ Chí Minh",
+      "district": "10",
+      "ward": "14"
+    },
+    "actual_result": {
+      "province": "Hồ Chí Minh",
+      "district": "1",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Mỹ Hưng Hòa,Mỹ Xương,Cao Lãnh, Đồng Tháp.",
+    "reg_text": "['my', 'hung', 'hoa', 'my', 'xuong', 'cao', 'lanh', 'dong', 'thap']",
+    "exec_time": 0.007740974426269531,
+    "expected_result": {
+      "province": "Đồng Tháp",
+      "district": "Cao Lãnh",
+      "ward": "Mỹ Xương"
+    },
+    "actual_result": {
+      "province": "Đồng Tháp",
+      "district": "Cao Lãnh",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Hải Ba  Hải Lăng ",
+    "reg_text": "['hai', 'ba', 'hai', 'lang']",
+    "exec_time": 0.06748795509338379,
+    "expected_result": {
+      "district": "Hải Lăng",
+      "ward": "Hải Ba",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Lạng Sơn",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Van Điểm, H hường TLín, Thành phốHa Nội",
+    "reg_text": "['van', 'diem', 'huong', 'tlin', 'thanh', 'phoha', 'noi']",
+    "exec_time": 0.00873708724975586,
+    "expected_result": {
+      "district": "Thường Tín",
+      "ward": "Vạn Điểm",
+      "province": "Hà Nội"
+    },
+    "actual_result": {
+      "province": "Hà Nội",
+      "district": "Thanh Trì",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X.Thài Phìn Tủng, Huyện ĐồGg Van,  Hà Gxiang",
+    "reg_text": "['thai', 'phin', 'tung', 'dogg', 'van', 'ha', 'gxiang']",
+    "exec_time": 0.00304412841796875,
+    "expected_result": {
+      "district": "Đồng Văn",
+      "ward": "Thài Phìn Tủng",
+      "province": "Hà Giang"
+    },
+    "actual_result": {
+      "province": "",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "XãBù Gia Mập,,T Bình Phước",
+    "reg_text": "['xabu', 'gia', 'map', 'binh', 'phuoc']",
+    "exec_time": 0.007685184478759766,
+    "expected_result": {
+      "district": "",
+      "ward": "Bù Gia Mập",
+      "province": "Bình Phước"
+    },
+    "actual_result": {
+      "province": "Bình Phước",
+      "district": "Bù Gia Mập",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Xã Mỹ Lương Yên Lập ",
+    "reg_text": "['my', 'luong', 'yen', 'lap']",
+    "exec_time": 0.029381990432739258,
+    "expected_result": {
+      "district": "Yên Lập",
+      "ward": "Mỹ Lương",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Phú Thọ",
+      "district": "Yên Lập",
+      "ward": "Yên Lập"
+    }
+  },
+  {
+    "raw_text": ", H Nam Trực, Nam Đị8nh",
+    "reg_text": "['nam', 'truc', 'nam', 'di8nh']",
+    "exec_time": 0.036611080169677734,
+    "expected_result": {
+      "district": "Nam Trực",
+      "ward": "",
+      "province": "Nam Định"
+    },
+    "actual_result": {
+      "province": "",
+      "district": "8",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " Tam GiangNăm CănT.Cà Mau",
+    "reg_text": "['tam', 'nam', 'ca', 'mau']",
+    "exec_time": 0.0066988468170166016,
+    "expected_result": {
+      "district": "Năm Căn",
+      "ward": "Tam Giang",
+      "province": "Cà Mau"
+    },
+    "actual_result": {
+      "province": "Cà Mau",
+      "district": "Năm Căn",
+      "ward": "Năm Căn"
+    }
+  },
+  {
+    "raw_text": "XTân Thạnh, hAn Minh ",
+    "reg_text": "['xtan', 'an', 'minh']",
+    "exec_time": 0.008832931518554688,
+    "expected_result": {
+      "district": "An Minh",
+      "ward": "Tân Thạnh",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Hồ Chí Minh",
+      "district": "Tân Phú",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X Cam Bình, Thành FhốCam Rah,  Khánh Hòa",
+    "reg_text": "['cam', 'binh', 'thanh', 'fhocam', 'rah', 'khanh', 'hoa']",
+    "exec_time": 0.0033278465270996094,
+    "expected_result": {
+      "district": "Cam Ranh",
+      "ward": "Cam Bình",
+      "province": "Khánh Hòa"
+    },
+    "actual_result": {
+      "province": "Khánh Hòa",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " Minh Tân,h.Lưng Tai,",
+    "reg_text": "['minh', 'tan', 'lung', 'tai']",
+    "exec_time": 0.03222179412841797,
+    "expected_result": {
+      "district": "Lương Tài",
+      "ward": "Minh Tân",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "",
+      "district": "Lương Tài",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "P.tự Anm T.PhốBuôn Ma Thuột, T. Đắk Lăk",
+    "reg_text": "['tu', 'anm', 'phobuon', 'ma', 'thuot', 'dak', 'lak']",
+    "exec_time": 0.008070945739746094,
+    "expected_result": {
+      "district": "Buôn Ma Thuột",
+      "ward": "Tự An",
+      "province": "Đắk Lắk"
+    },
+    "actual_result": {
+      "province": "Đắk Lắk",
+      "district": "Buôn Ma Thuột",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "  Đông Giang T Quảyg Nm",
+    "reg_text": "['dong', 'giang', 'quayg', 'nm']",
+    "exec_time": 0.029979944229125977,
+    "expected_result": {
+      "district": "Đông Giang",
+      "ward": "",
+      "province": "Quảng Nam"
+    },
+    "actual_result": {
+      "province": "Hưng Yên",
+      "district": "Yên Mỹ",
+      "ward": "Yên Mỹ"
+    }
+  },
+  {
+    "raw_text": "Xan Tiến, H. An Lão, ",
+    "reg_text": "['xan', 'tien', 'an', 'lao']",
+    "exec_time": 0.008733987808227539,
+    "expected_result": {
+      "district": "An Lão",
+      "ward": "An Tiến",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Lào Cai",
+      "district": "Văn Bàn",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "XGia Hội,h.Văn Chấn,TỉnhYênKBái",
+    "reg_text": "['xgia', 'hoi', 'van', 'chan', 'kbai']",
+    "exec_time": 0.0026302337646484375,
+    "expected_result": {
+      "district": "Văn Chấn",
+      "ward": "Gia Hội",
+      "province": "Yên Bái"
+    },
+    "actual_result": {
+      "province": "",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X.Tân Tiến,H.Đồng Phú,",
+    "reg_text": "['tan', 'tien', 'dong', 'phu']",
+    "exec_time": 0.00795888900756836,
+    "expected_result": {
+      "district": "Đồng Phú",
+      "ward": "Tân Tiến",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Phú Yên",
+      "district": "Đông Hòa",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "PHoà Quý Q.ngũ Hành sơn Đà Nẵng",
+    "reg_text": "['phoa', 'quy', 'ngu', 'hanh', 'son', 'da', 'nang']",
+    "exec_time": 0.007368803024291992,
+    "expected_result": {
+      "district": "Ngũ Hành Sơn",
+      "ward": "Hoà Quý",
+      "province": "Đà Nẵng"
+    },
+    "actual_result": {
+      "province": "Đà Nẵng",
+      "district": "Ngũ Hành Sơn",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "XãV Ninh, Kiên Xương,",
+    "reg_text": "['xav', 'ninh', 'kien', 'xuong']",
+    "exec_time": 0.0403289794921875,
+    "expected_result": {
+      "district": "Kiến Xương",
+      "ward": "Vũ Ninh",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "",
+      "district": "Kiến Xương",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " TP Biên Hòa TỉnhĐyng Nai",
+    "reg_text": "['bien', 'hoa', 'tinhdyng', 'nai']",
+    "exec_time": 0.06335687637329102,
+    "expected_result": {
+      "district": "Biên Hòa",
+      "ward": "",
+      "province": "Đồng Nai"
+    },
+    "actual_result": {
+      "province": "Đồng Nai",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X. Trà DVưong Bắc Trà My TQuảg Nam",
+    "reg_text": "['tra', 'dvuong', 'bac', 'tra', 'my', 'tquag', 'nam']",
+    "exec_time": 0.003175020217895508,
+    "expected_result": {
+      "district": "Bắc Trà My",
+      "ward": "Trà Dương",
+      "province": "Quảng Nam"
+    },
+    "actual_result": {
+      "province": "Hà Nam",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X.Thiết Kế,H.Bá Thước,",
+    "reg_text": "['thiet', 'ke', 'ba', 'thuoc']",
+    "exec_time": 0.03562498092651367,
+    "expected_result": {
+      "district": "Bá Thước",
+      "ward": "Thiết Kế",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "",
+      "district": "Bá Thước",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X Quỳnh Nuyên,,T. Thái Bình",
+    "reg_text": "['quynh', 'nuyen', 'thai', 'binh']",
+    "exec_time": 0.05318403244018555,
+    "expected_result": {
+      "district": "",
+      "ward": "Quỳnh Nguyên",
+      "province": "Thái Bình"
+    },
+    "actual_result": {
+      "province": "Thái Bình",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "XVnh Hung, , T.Thanh Hóa",
+    "reg_text": "['xvnh', 'hung', 'thanh', 'hoa']",
+    "exec_time": 0.20235800743103027,
+    "expected_result": {
+      "district": "",
+      "ward": "Vĩnh Hùng",
+      "province": "Thanh Hóa"
+    },
+    "actual_result": {
+      "province": "Thanh Hóa",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X.Tăng Thanh, H Yên Thành, ",
+    "reg_text": "['tang', 'thanh', 'yen', 'thanh']",
+    "exec_time": 0.011735200881958008,
+    "expected_result": {
+      "district": "Yên Thành",
+      "ward": "Tăng Thành",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Thanh Hóa",
+      "district": "Yên Định",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "XãTrung Lập,  Vĩnh Bảo,7 ",
+    "reg_text": "['xatrung', 'lap', 'vinh', 'bao', '7']",
+    "exec_time": 0.001477956771850586,
+    "expected_result": {
+      "district": "Vĩnh Bảo",
+      "ward": "Trung Lập",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Phường Ngoc Thụy  Thành phốHà Nội",
+    "reg_text": "['ngoc', 'thuy', 'thanh', 'phoha', 'noi']",
+    "exec_time": 0.008502721786499023,
+    "expected_result": {
+      "district": "",
+      "ward": "Ngọc Thụy",
+      "province": "Hà Nội"
+    },
+    "actual_result": {
+      "province": "Hà Nội",
+      "district": "Thanh Trì",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "TT Qu7 Nhất,,Tỉnh Nam Định",
+    "reg_text": "['qu7', 'nhat', 'nam', 'dinh']",
+    "exec_time": 0.0734708309173584,
+    "expected_result": {
+      "district": "",
+      "ward": "Quỹ Nhất",
+      "province": "Nam Định"
+    },
+    "actual_result": {
+      "province": "Nam Định",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "QX.Tân Hưng Tây, Ph8 Tân,",
+    "reg_text": "['qx', 'tan', 'hung', 'tay', 'ph8', 'tan']",
+    "exec_time": 0.0023238658905029297,
+    "expected_result": {
+      "district": "Phú Tân",
+      "ward": "Tân Hưng Tây",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Phưong Thọ Son,T.Phố Việt Trì, Phú Thọ",
+    "reg_text": "['tho', 'son', 'pho', 'viet', 'tri', 'phu', 'tho']",
+    "exec_time": 0.007470130920410156,
+    "expected_result": {
+      "district": "Việt Trì",
+      "ward": "Thọ Sơn",
+      "province": "Phú Thọ"
+    },
+    "actual_result": {
+      "province": "Phú Thọ",
+      "district": "Việt Trì",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "XHòa Bqc, HDi Linh, ",
+    "reg_text": "['xhoa', 'bqc', 'hdi', 'linh']",
+    "exec_time": 0.03471517562866211,
+    "expected_result": {
+      "district": "Di Linh",
+      "ward": "Hòa Bắc",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "",
+      "district": "Di Linh",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " Cộng Hòa,,TỉnhHaOi Dương",
+    "reg_text": "['cong', 'hoa', 'oi', 'duong']",
+    "exec_time": 0.07732892036437988,
+    "expected_result": {
+      "district": "",
+      "ward": "Cộng Hòa",
+      "province": "Hải Dương"
+    },
+    "actual_result": {
+      "province": "Hải Dương",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Đai TanHuyện Đại ộc,TỉnhQuảng Nam",
+    "reg_text": "['dai', 'dai', 'oc', 'quang', 'nam']",
+    "exec_time": 0.009109020233154297,
+    "expected_result": {
+      "district": "Đại Lộc",
+      "ward": "Đại Tân",
+      "province": "Quảng Nam"
+    },
+    "actual_result": {
+      "province": "Quảng Nam",
+      "district": "Đại Lộc",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " HBảo Lâm 8 Cao Bằng",
+    "reg_text": "['hbao', 'lam', '8', 'cao', 'bang']",
+    "exec_time": 0.003259897232055664,
+    "expected_result": {
+      "district": "Bảo Lâm",
+      "ward": "",
+      "province": "Cao Bằng"
+    },
+    "actual_result": {
+      "province": "Cao Bằng",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X Sùng Phài T.P zai Châu T.Lai Châu",
+    "reg_text": "['sung', 'phai', 'zai', 'chau', 'lai', 'chau']",
+    "exec_time": 0.007927894592285156,
+    "expected_result": {
+      "district": "Lai Châu",
+      "ward": "Sùng Phài",
+      "province": "Lai Châu"
+    },
+    "actual_result": {
+      "province": "Lai Châu",
+      "district": "Lai Châu",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " An Lowng Phú Giáo TBinh Dương",
+    "reg_text": "['an', 'lowng', 'phu', 'giao', 'tbinh', 'duong']",
+    "exec_time": 0.008085012435913086,
+    "expected_result": {
+      "district": "Phú Giáo",
+      "ward": "An Long",
+      "province": "Bình Dương"
+    },
+    "actual_result": {
+      "province": "Bình Dương",
+      "district": "Phú Giáo",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X Tân7 Thịnh  Yiên Bái T. yên Bái",
+    "reg_text": "['tan7', 'thinh', 'yien', 'bai', 'yen', 'bai']",
+    "exec_time": 0.008795022964477539,
+    "expected_result": {
+      "district": "Yên Bái",
+      "ward": "Tân Thịnh",
+      "province": "Yên Bái"
+    },
+    "actual_result": {
+      "province": "Yên Bái",
+      "district": "Yên Bái",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " Hải An  Hải Lăng TQdung trị",
+    "reg_text": "['hai', 'an', 'hai', 'lang', 'tqdung', 'tri']",
+    "exec_time": 0.0032072067260742188,
+    "expected_result": {
+      "district": "Hải Lăng",
+      "ward": "Hải An",
+      "province": "Quảng Trị"
+    },
+    "actual_result": {
+      "province": "Quảng Trị",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Thị trấn Hai Riêng H Sông Hinh ",
+    "reg_text": "['hai', 'rieng', 'song', 'hinh']",
+    "exec_time": 0.03652310371398926,
+    "expected_result": {
+      "district": "Sông Hinh",
+      "ward": "Hai Riêng",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "",
+      "district": "Sông Hinh",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X. Diễn Thành Huyện Diên Châu ",
+    "reg_text": "['dien', 'thanh', 'dien', 'chau']",
+    "exec_time": 0.04247283935546875,
+    "expected_result": {
+      "district": "Diễn Châu",
+      "ward": "Diễn Thành",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Lai Châu",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X.Chê La,,T.Hà GianZ",
+    "reg_text": "['che', 'la', 'ha']",
+    "exec_time": 0.007336854934692383,
+    "expected_result": {
+      "district": "",
+      "ward": "Chế Là",
+      "province": "Hà Giang"
+    },
+    "actual_result": {
+      "province": "Hà Nội",
+      "district": "Gia Lâm",
+      "ward": "Kim Lan"
+    }
+  },
+  {
+    "raw_text": "Hôno Sỹ  Tỉnh Cao Bằng",
+    "reg_text": "['hono', 'sy', 'cao', 'bang']",
+    "exec_time": 0.06638598442077637,
+    "expected_result": {
+      "district": "",
+      "ward": "Hồng Sỹ",
+      "province": "Cao Bằng"
+    },
+    "actual_result": {
+      "province": "Cao Bằng",
+      "district": "Thạch An",
+      "ward": "Danh Sỹ"
+    }
+  },
+  {
+    "raw_text": "X. Hành Tín Tây  T.Quảng Ngãi",
+    "reg_text": "['hanh', 'tin', 'tay', 'quang', 'ngai']",
+    "exec_time": 0.007923364639282227,
+    "expected_result": {
+      "district": "",
+      "ward": "Hành Tín Tây",
+      "province": "Quảng Ngãi"
+    },
+    "actual_result": {
+      "province": "Quảng Ngãi",
+      "district": "Tây Trà",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Phường Hiệ An, T.X.Kinh Môn, TỉnhHải Dương",
+    "reg_text": "['hie', 'an', 'kinh', 'mon', 'hai', 'duong']",
+    "exec_time": 0.010114192962646484,
+    "expected_result": {
+      "district": "Kinh Môn",
+      "ward": "Hiệp An",
+      "province": "Hải Dương"
+    },
+    "actual_result": {
+      "province": "Hải Dương",
+      "district": "Kinh Môn",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Xã Trịnh Tường H Bát Xát ",
+    "reg_text": "['trinh', 'tuong', 'bat', 'xat']",
+    "exec_time": 0.029818058013916016,
+    "expected_result": {
+      "district": "Bát Xát",
+      "ward": "Trịnh Tường",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Lào Cai",
+      "district": "Bát Xát",
+      "ward": "Bát Xát"
+    }
+  },
+  {
+    "raw_text": "XãChiềng Mu5ng  T.stn la",
+    "reg_text": "['xachieng', 'mu5ng', 'stn', 'la']",
+    "exec_time": 0.06311988830566406,
+    "expected_result": {
+      "district": "",
+      "ward": "Chiềng Mung",
+      "province": "Sơn La"
+    },
+    "actual_result": {
+      "province": "Sơn La",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Fmễ Trì, Nam Từ Liêm, Thành phố HN",
+    "reg_text": "['fme', 'tri', 'nam', 'tu', 'liem', 'thanh', 'pho', 'hn']",
+    "exec_time": 0.0019719600677490234,
+    "expected_result": {
+      "district": "Nam Từ Liêm",
+      "ward": "Mễ Trì",
+      "province": "Hà Nội"
+    },
+    "actual_result": {
+      "province": "",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "P4 T.Ph9ốĐông Hà ",
+    "reg_text": "['p4', 'ph9odong', 'ha']",
+    "exec_time": 0.22675609588623047,
+    "expected_result": {
+      "district": "Đông Hà",
+      "ward": "4",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Hà Nội",
+      "district": "",
+      "ward": "Cổ Đông"
+    }
+  },
+  {
+    "raw_text": "Tông Lạnh H.Thuận Chru TSơn La",
+    "reg_text": "['tong', 'lanh', 'thuan', 'chru', 'tson', 'la']",
+    "exec_time": 0.0028629302978515625,
+    "expected_result": {
+      "district": "Thuận Châu",
+      "ward": "Tông Lạnh",
+      "province": "Sơn La"
+    },
+    "actual_result": {
+      "province": "Sơn La",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " Long Thắng, Huyn Lai ung, ",
+    "reg_text": "['long', 'thang', 'huyn', 'lai', 'ung']",
+    "exec_time": 0.0028259754180908203,
+    "expected_result": {
+      "district": "Lai Vung",
+      "ward": "Long Thắng",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Hưng Yên",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " Chi Lăng,H Chi Lăng,Tỉnh Lạng5 Sơn",
+    "reg_text": "['chi', 'lang', 'chi', 'lang', 'lang5', 'son']",
+    "exec_time": 0.0032923221588134766,
+    "expected_result": {
+      "district": "Chi Lăng",
+      "ward": "Chi Lăng",
+      "province": "Lạng Sơn"
+    },
+    "actual_result": {
+      "province": "Sơn La",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " Bằng Lng,,T.Bắc Kạn",
+    "reg_text": "['bang', 'lng', 'bac', 'kan']",
+    "exec_time": 0.042414188385009766,
+    "expected_result": {
+      "district": "",
+      "ward": "Bằng Lũng",
+      "province": "Bắc Kạn"
+    },
+    "actual_result": {
+      "province": "Bắc Kạn",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " Huyệntân biên T.TDy Ninh",
+    "reg_text": "['huyentan', 'bien', 'tdy', 'ninh']",
+    "exec_time": 0.04635119438171387,
+    "expected_result": {
+      "district": "Tân Biên",
+      "ward": "",
+      "province": "Tây Ninh"
+    },
+    "actual_result": {
+      "province": "Tây Ninh",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X. Tân An, HuyệnThnh Hà, ",
+    "reg_text": "['tan', 'an', 'thnh', 'ha']",
+    "exec_time": 0.15634512901306152,
+    "expected_result": {
+      "district": "Thanh Hà",
+      "ward": "Tân An",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Hà Nội",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "XãtrBung Thanh,,TThanh Hóa",
+    "reg_text": "['bung', 'thanh', 'tthanh', 'hoa']",
+    "exec_time": 0.010489940643310547,
+    "expected_result": {
+      "district": "",
+      "ward": "Trung Thành",
+      "province": "Thanh Hóa"
+    },
+    "actual_result": {
+      "province": "Thanh Hóa",
+      "district": "Thanh Hóa",
+      "ward": "Quảng Thành"
+    }
+  },
+  {
+    "raw_text": "vĩnh Hưng, , Long An",
+    "reg_text": "['inh', 'hung', 'long', 'an']",
+    "exec_time": 0.007378101348876953,
+    "expected_result": {
+      "district": "",
+      "ward": "Vĩnh Hưng",
+      "province": "Long An"
+    },
+    "actual_result": {
+      "province": "Long An",
+      "district": "Vĩnh Hưng",
+      "ward": "Vĩnh Trị"
+    }
+  },
+  {
+    "raw_text": "Phường 04,,Thành phốHồ Chi Minh",
+    "reg_text": "['04', 'thanh', 'phoho', 'chi', 'minh']",
+    "exec_time": 0.0035369396209716797,
+    "expected_result": {
+      "district": "",
+      "ward": "04",
+      "province": "Hồ Chí Minh"
+    },
+    "actual_result": {
+      "province": "Hồ Chí Minh",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Xã Nâm Ntừ  Nậm Pồ ",
+    "reg_text": "['nam', 'ntu', 'nam', 'po']",
+    "exec_time": 0.02663397789001465,
+    "expected_result": {
+      "district": "Nậm Pồ",
+      "ward": "Nậm Nhừ",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "",
+      "district": "Nậm Pồ",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "P.Văn Đẩu, qKiến An, ThànhMphố Hải Phòng",
+    "reg_text": "['kien', 'an', 'mpho', 'hai', 'phong']",
+    "exec_time": 0.0036211013793945312,
+    "expected_result": {
+      "district": "Kiến An",
+      "ward": "Văn Đẩu",
+      "province": "Hải Phòng"
+    },
+    "actual_result": {
+      "province": "Hải Phòng",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "P Ea Tam T.P Buôn Ma Thuột TỉnĐắk Llk",
+    "reg_text": "['ea', 'tam', 'buon', 'ma', 'thuot', 'tindak', 'llk']",
+    "exec_time": 0.0027680397033691406,
+    "expected_result": {
+      "district": "Buôn Ma Thuột",
+      "ward": "Ea Tam",
+      "province": "Đắk Lắk"
+    },
+    "actual_result": {
+      "province": "",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "F Tân Dân, T.Xã.Nghi Sơn, TỉnhThanh Hóa",
+    "reg_text": "['tan', 'dan', 'nghi', 'son', 'thanh', 'hoa']",
+    "exec_time": 0.007928133010864258,
+    "expected_result": {
+      "district": "Nghi Sơn",
+      "ward": "Tân Dân",
+      "province": "Thanh Hóa"
+    },
+    "actual_result": {
+      "province": "Thanh Hóa",
+      "district": "Bỉm Sơn",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "XNam Cát, HuyệnNam đàn, ",
+    "reg_text": "['xnam', 'cat', 'nam', 'dan']",
+    "exec_time": 0.0387270450592041,
+    "expected_result": {
+      "district": "Nam Đàn",
+      "ward": "Nam Cát",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Đà Nẵng",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Xã Vị Tân  Vị Than ",
+    "reg_text": "['vi', 'tan', 'vi', 'than']",
+    "exec_time": 0.00857996940612793,
+    "expected_result": {
+      "district": "Vị Thanh",
+      "ward": "Vị Tân",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Thanh Hóa",
+      "district": "Vĩnh Lộc",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X My Thành Bac, HuyệnCai Lậy, ",
+    "reg_text": "['my', 'thanh', 'bac', 'cai', 'lay']",
+    "exec_time": 0.0023140907287597656,
+    "expected_result": {
+      "district": "Cai Lậy",
+      "ward": "Mỹ Thành Bắc",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "XCư Drămb H.Krông Bông ",
+    "reg_text": "['xcu', 'dramb', 'krong', 'bong']",
+    "exec_time": 0.038244009017944336,
+    "expected_result": {
+      "district": "Krông Bông",
+      "ward": "Cư Drăm",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Đắk Lắk",
+      "district": "Krông Bông",
+      "ward": "Krông Kmar"
+    }
+  },
+  {
+    "raw_text": "X Bình Hi, , T.Quảcg Nam",
+    "reg_text": "['binh', 'hi', 'quacg', 'nam']",
+    "exec_time": 0.03387308120727539,
+    "expected_result": {
+      "district": "",
+      "ward": "Bình Hải",
+      "province": "Quảng Nam"
+    },
+    "actual_result": {
+      "province": "Hà Nam",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "XãNân Chính, H Ly Nhân, Tỉnh HaNam",
+    "reg_text": "['xanan', 'chinh', 'ly', 'nhan', 'nam']",
+    "exec_time": 0.009840011596679688,
+    "expected_result": {
+      "district": "Lý Nhân",
+      "ward": "Nhân Chính",
+      "province": "Hà Nam"
+    },
+    "actual_result": {
+      "province": "Hà Nam",
+      "district": "Lý Nhân",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " Khả cửu, H. Thanh Srn, ",
+    "reg_text": "['kha', 'cuu', 'thanh', 'srn']",
+    "exec_time": 0.029713153839111328,
+    "expected_result": {
+      "district": "Thanh Sơn",
+      "ward": "Khả Cửu",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Thị Trấn Nông Trường Việt lâm,Vị Xuyen,Ha Giang",
+    "reg_text": "['nong', 'truong', 'viet', 'lam', 'vi', 'xuyen', 'ha', 'giang']",
+    "exec_time": 0.008068084716796875,
+    "expected_result": {
+      "district": "Vị Xuyên",
+      "ward": "Nông Trường Việt Lâm",
+      "province": "Hà Giang"
+    },
+    "actual_result": {
+      "province": "Hà Giang",
+      "district": "Vị Xuyên",
+      "ward": "Việt Lâm"
+    }
+  },
+  {
+    "raw_text": ", Q11, Hồ Chí Minh",
+    "reg_text": "['q11', 'chi', 'minh']",
+    "exec_time": 0.0034859180450439453,
+    "expected_result": {
+      "district": "11",
+      "ward": "",
+      "province": "Hồ Chí Minh"
+    },
+    "actual_result": {
+      "province": "Hồ Chí Minh",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "F.LoWng Binh, TpThủ Đưc, TPHCM",
+    "reg_text": "['wng', 'binh', 'thu', 'duc', 'tphcm']",
+    "exec_time": 0.0027501583099365234,
+    "expected_result": {
+      "district": "Thủ Đức",
+      "ward": "Long Bình",
+      "province": "Hồ Chí Minh"
+    },
+    "actual_result": {
+      "province": "",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Xã Đông cường, h.Đông Hưng, ",
+    "reg_text": "['dong', 'cuong', 'dong', 'hung']",
+    "exec_time": 0.009406089782714844,
+    "expected_result": {
+      "district": "Đông Hưng",
+      "ward": "Đông Cường",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Hưng Yên",
+      "district": "Kim Động",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Bạch Lưu, H.Song Lô, Vĩnh PGhúc",
+    "reg_text": "['bach', 'luu', 'song', 'lo', 'vinh', 'pghuc']",
+    "exec_time": 0.0029680728912353516,
+    "expected_result": {
+      "district": "Sông Lô",
+      "ward": "Bạch Lưu",
+      "province": "Vĩnh Phúc"
+    },
+    "actual_result": {
+      "province": "",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "PhườngHà Mãn, T.X.Thuận Thành, ",
+    "reg_text": "['ha', 'man', 'thuan', 'thanh']",
+    "exec_time": 0.15263819694519043,
+    "expected_result": {
+      "district": "Thuận Thành",
+      "ward": "Hà Mãn",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Thanh Hóa",
+      "district": "Hậu Lộc",
+      "ward": "Thuần Lộc"
+    }
+  },
+  {
+    "raw_text": "x. Nam Thai A, AZBiên,Tỉnh Kiên Giang",
+    "reg_text": "['nam', 'thai', 'azbien', 'kien', 'giang']",
+    "exec_time": 0.004238128662109375,
+    "expected_result": {
+      "district": "An Biên",
+      "ward": "Nam Thái A",
+      "province": "Kiên Giang"
+    },
+    "actual_result": {
+      "province": "Kiên Giang",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "P. Quảng Thọ,T.P Sầm Swn,TY. thanh Hóa",
+    "reg_text": "['quang', 'tho', 'sam', 'swn', 'ty', 'thanh', 'hoa']",
+    "exec_time": 0.0036368370056152344,
+    "expected_result": {
+      "district": "Sầm Sơn",
+      "ward": "Quảng Thọ",
+      "province": "Thanh Hóa"
+    },
+    "actual_result": {
+      "province": "Thanh Hóa",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " Đông Htòa Phu Yên",
+    "reg_text": "['dong', 'htoa', 'phu', 'yen']",
+    "exec_time": 0.04643726348876953,
+    "expected_result": {
+      "district": "Đông Hòa",
+      "ward": "",
+      "province": "Phú Yên"
+    },
+    "actual_result": {
+      "province": "Phú Yên",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " Tam Amnh NZm  Núi Thành TQuảng Nam",
+    "reg_text": "['tam', 'amnh', 'nzm', 'nui', 'thanh', 'tquang', 'nam']",
+    "exec_time": 0.00845789909362793,
+    "expected_result": {
+      "district": "Núi Thành",
+      "ward": "Tam Anh Nam",
+      "province": "Quảng Nam"
+    },
+    "actual_result": {
+      "province": "Quảng Nam",
+      "district": "Núi Thành",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "P. Phong CNốc Th,ị xãQuảng Yên t. Quảng Ninh",
+    "reg_text": "['phong', 'cnoc', 'th', 'xaquang', 'yen', 'quang', 'ninh']",
+    "exec_time": 0.008189201354980469,
+    "expected_result": {
+      "district": "Quảng Yên",
+      "ward": "Phong Cốc",
+      "province": "Quảng Ninh"
+    },
+    "actual_result": {
+      "province": "Quảng Ninh",
+      "district": "Quảng Yên",
+      "ward": "Minh Thành"
+    }
+  },
+  {
+    "raw_text": "Nghi Sơ6n, T.X. Nghi Sơn, Thhanh Hóa",
+    "reg_text": "['nghi', 'so6n', 'nghi', 'son', 'thhanh', 'hoa']",
+    "exec_time": 0.008372068405151367,
+    "expected_result": {
+      "district": "Nghi Sơn",
+      "ward": "Nghi Sơn",
+      "province": "Thanh Hóa"
+    },
+    "actual_result": {
+      "province": "Thanh Hóa",
+      "district": "Bỉm Sơn",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": ", ThăngFBìh,T. Quảng Nam",
+    "reg_text": "['fbih', 'quang', 'nam']",
+    "exec_time": 0.09059619903564453,
+    "expected_result": {
+      "district": "Thăng Bình",
+      "ward": "",
+      "province": "Quảng Nam"
+    },
+    "actual_result": {
+      "province": "Quảng Nam",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "TT Hội An,,TAn Giang",
+    "reg_text": "['hoi', 'an', 'tan', 'giang']",
+    "exec_time": 0.008367061614990234,
+    "expected_result": {
+      "district": "",
+      "ward": "Hội An",
+      "province": "An Giang"
+    },
+    "actual_result": {
+      "province": "An Giang",
+      "district": "An Phú",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X.H Mỗ, Đan PhTượng,",
+    "reg_text": "['mo', 'dan', 'tuong']",
+    "exec_time": 0.039656877517700195,
+    "expected_result": {
+      "district": "Đan Phượng",
+      "ward": "Hạ Mỗ",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Vĩnh Phúc",
+      "district": "Vĩnh Tường",
+      "ward": "An Tường"
+    }
+  },
+  {
+    "raw_text": "Xã Tiến Nông,H Trệu Sơn,T. Thanh Hóa",
+    "reg_text": "['tien', 'nong', 'treu', 'son', 'thanh', 'hoa']",
+    "exec_time": 0.007909059524536133,
+    "expected_result": {
+      "district": "Triệu Sơn",
+      "ward": "Tiến Nông",
+      "province": "Thanh Hóa"
+    },
+    "actual_result": {
+      "province": "Thanh Hóa",
+      "district": "Bỉm Sơn",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Xã Quang Tiếns6 Tân Yên, ",
+    "reg_text": "['quang', 'tiens6', 'tan', 'yen']",
+    "exec_time": 0.04595804214477539,
+    "expected_result": {
+      "district": "Tân Yên",
+      "ward": "Quang Tiến",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Phú Yên",
+      "district": "Tuy Hoà",
+      "ward": "6"
+    }
+  },
+  {
+    "raw_text": "Xã Lương Hòa,HuyệnBen Lức,",
+    "reg_text": "['luong', 'hoa', 'ben', 'luc']",
+    "exec_time": 0.03041815757751465,
+    "expected_result": {
+      "district": "Bến Lức",
+      "ward": "Lương Hòa",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Long An",
+      "district": "Bến Lức",
+      "ward": "Bến Lức"
+    }
+  },
+  {
+    "raw_text": "X.Tân Son,hchợ QMới,",
+    "reg_text": "['tan', 'son', 'hcho', 'qmoi']",
+    "exec_time": 0.0308840274810791,
+    "expected_result": {
+      "district": "Chợ Mới",
+      "ward": "Tân Sơn",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Quách Phẩm Bắc, , Cà Mzu",
+    "reg_text": "['quach', 'pham', 'bac', 'ca', 'mzu']",
+    "exec_time": 0.0020101070404052734,
+    "expected_result": {
+      "district": "",
+      "ward": "Quách Phẩm Bắc",
+      "province": "Cà Mau"
+    },
+    "actual_result": {
+      "province": "",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X Tvực Đạo, , Nam Định",
+    "reg_text": "['tvuc', 'dao', 'nam', 'dinh']",
+    "exec_time": 0.07170915603637695,
+    "expected_result": {
+      "district": "",
+      "ward": "Trực Đạo",
+      "province": "Nam Định"
+    },
+    "actual_result": {
+      "province": "Nam Định",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Thị trấn Tân Phong, , TThanh Hóa",
+    "reg_text": "['tan', 'phong', 'tthanh', 'hoa']",
+    "exec_time": 0.20505499839782715,
+    "expected_result": {
+      "district": "",
+      "ward": "Tân Phong",
+      "province": "Thanh Hóa"
+    },
+    "actual_result": {
+      "province": "Thanh Hóa",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X. Lộc Thah,T0P Bảo lộc,TLâm Đông",
+    "reg_text": "['loc', 'thah', 't0p', 'bao', 'loc', 'tlam', 'dong']",
+    "exec_time": 0.008156776428222656,
+    "expected_result": {
+      "district": "Bảo Lộc",
+      "ward": "Lộc Thanh",
+      "province": "Lâm Đồng"
+    },
+    "actual_result": {
+      "province": "Lâm Đồng",
+      "district": "Bảo Lộc",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X Đương Hoa  TQuảng Ninh",
+    "reg_text": "['duong', 'hoa', 'tquang', 'ninh']",
+    "exec_time": 0.008175849914550781,
+    "expected_result": {
+      "district": "",
+      "ward": "Đường Hoa",
+      "province": "Quảng Ninh"
+    },
+    "actual_result": {
+      "province": "Quảng Ninh",
+      "district": "Hoành Bồ",
+      "ward": "Hòa Bình"
+    }
+  },
+  {
+    "raw_text": "XMiền Đồi,LaZc Sơn,",
+    "reg_text": "['xmien', 'doi', 'zc', 'son']",
+    "exec_time": 0.06088709831237793,
+    "expected_result": {
+      "district": "Lạc Sơn",
+      "ward": "Miền Đồi",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Sơn La",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X Phu Mãn   HN",
+    "reg_text": "['phu', 'man', 'hn']",
+    "exec_time": 0.02623581886291504,
+    "expected_result": {
+      "district": "",
+      "ward": "Phú Mãn",
+      "province": "Hà Nội"
+    },
+    "actual_result": {
+      "province": "",
+      "district": "Quỳnh Nhai",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X Mường Lèo H Sốp Cộp T Sơn ma",
+    "reg_text": "['muong', 'leo', 'sop', 'cop', 'son', 'ma']",
+    "exec_time": 0.002342700958251953,
+    "expected_result": {
+      "district": "Sốp Cộp",
+      "ward": "Mường Lèo",
+      "province": "Sơn La"
+    },
+    "actual_result": {
+      "province": "Cà Mau",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "XTâm Thsắng Cư Jút TỉnhĐắk Nông",
+    "reg_text": "['xtam', 'thsang', 'cu', 'jut', 'tinhdak', 'nong']",
+    "exec_time": 0.008372783660888672,
+    "expected_result": {
+      "district": "Cư Jút",
+      "ward": "Tâm Thắng",
+      "province": "Đắk Nông"
+    },
+    "actual_result": {
+      "province": "Đắk Nông",
+      "district": "Cư Jút",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X.Hòa Trị Huzyen hú Hoa TPhú Yên",
+    "reg_text": "['hoa', 'tri', 'huzyen', 'hu', 'hoa', 'tphu', 'yen']",
+    "exec_time": 0.007626056671142578,
+    "expected_result": {
+      "district": "Phú Hoà",
+      "ward": "Hòa Trị",
+      "province": "Phú Yên"
+    },
+    "actual_result": {
+      "province": "Phú Yên",
+      "district": "Phú Hoà",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "XLa Sơn H. Binh lục ",
+    "reg_text": "['xla', 'son', 'binh', 'luc']",
+    "exec_time": 0.032202959060668945,
+    "expected_result": {
+      "district": "Bình Lục",
+      "ward": "La Sơn",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "",
+      "district": "Bình Lục",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "F. Điện Nam Bắc, x TQuảng Nam",
+    "reg_text": "['dien', 'nam', 'bac', 'tquang', 'nam']",
+    "exec_time": 0.00822901725769043,
+    "expected_result": {
+      "district": "",
+      "ward": "Điện Nam Bắc",
+      "province": "Quảng Nam"
+    },
+    "actual_result": {
+      "province": "Quảng Nam",
+      "district": "Bắc Trà My",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X. Bok Tới H Hoài Ân  Bìh Định",
+    "reg_text": "['bok', 'toi', 'hoai', 'an', 'bih', 'dinh']",
+    "exec_time": 0.0029969215393066406,
+    "expected_result": {
+      "district": "Hoài Ân",
+      "ward": "Bok Tới",
+      "province": "Bình Định"
+    },
+    "actual_result": {
+      "province": "Nam Định",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "XTân Nghia  Di Linh Lâm ĐồnG",
+    "reg_text": "['xtan', 'nghia', 'di', 'linh']",
+    "exec_time": 0.03298497200012207,
+    "expected_result": {
+      "district": "Di Linh",
+      "ward": "Tân Nghĩa",
+      "province": "Lâm Đồng"
+    },
+    "actual_result": {
+      "province": "",
+      "district": "Di Linh",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Bình Sa HuyệnThăng Bình ",
+    "reg_text": "['binh', 'sa', 'thang', 'binh']",
+    "exec_time": 0.06147313117980957,
+    "expected_result": {
+      "district": "Thăng Bình",
+      "ward": "Bình Sa",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Hoà Bình",
+      "district": "Lương Sơn",
+      "ward": "Cao Thắng"
+    }
+  },
+  {
+    "raw_text": "Tinh Nhu Huyện Thanh Sơn Tỉnh Phú Tho",
+    "reg_text": "['nhu', 'thanh', 'son', 'phu', 'tho']",
+    "exec_time": 0.008164167404174805,
+    "expected_result": {
+      "district": "Thanh Sơn",
+      "ward": "Tinh Nhuệ",
+      "province": "Phú Thọ"
+    },
+    "actual_result": {
+      "province": "Phú Thọ",
+      "district": "Thanh Sơn",
+      "ward": "Sơn Hùng"
+    }
+  },
+  {
+    "raw_text": "XãGia Vượng, Gia Viễn, ",
+    "reg_text": "['xagia', 'vuong', 'gia', 'vien']",
+    "exec_time": 0.03374910354614258,
+    "expected_result": {
+      "district": "Gia Viễn",
+      "ward": "Gia Vượng",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "",
+      "district": "Gia Viễn",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X.Yên Phong  Tỉnh Bắc Kạn",
+    "reg_text": "['yen', 'phong', 'bac', 'kan']",
+    "exec_time": 0.053005218505859375,
+    "expected_result": {
+      "district": "",
+      "ward": "Yên Phong",
+      "province": "Bắc Kạn"
+    },
+    "actual_result": {
+      "province": "Bắc Kạn",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "F.Dịch Vọng  C/Giấy Thành phốHàNội",
+    "reg_text": "['dich', 'vong', 'c/giay', 'thanh', 'phohanoi']",
+    "exec_time": 0.010878324508666992,
+    "expected_result": {
+      "district": "Cầu Giấy",
+      "ward": "Dịch Vọng",
+      "province": "Hà Nội"
+    },
+    "actual_result": {
+      "province": "Hà Nội",
+      "district": "Thanh Trì",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " Ea Huar,HuyệnBuôn Đôn,",
+    "reg_text": "['ea', 'huar', 'buon', 'don']",
+    "exec_time": 0.060594797134399414,
+    "expected_result": {
+      "district": "Buôn Đôn",
+      "ward": "Ea Huar",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Lâm Đồng",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X Tân Thanh Huyện Lang Giang ",
+    "reg_text": "['tan', 'thanh', 'lang', 'giang']",
+    "exec_time": 0.07321000099182129,
+    "expected_result": {
+      "district": "Lạng Giang",
+      "ward": "Tân Thanh",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "An Giang",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X. Sơn Hv HSơn Hoa Tỉnh Phú Yên",
+    "reg_text": "['son', 'hv', 'hson', 'hoa', 'phu', 'yen']",
+    "exec_time": 0.007745027542114258,
+    "expected_result": {
+      "district": "Sơn Hòa",
+      "ward": "Sơn Hội",
+      "province": "Phú Yên"
+    },
+    "actual_result": {
+      "province": "Phú Yên",
+      "district": "Sơn Hòa",
+      "ward": "Sơn Hà"
+    }
+  },
+  {
+    "raw_text": "Xã Bản My H..Hoàng Su Phì T.Hà Giang",
+    "reg_text": "['ban', 'my', 'hoang', 'su', 'phi', 'ha', 'giang']",
+    "exec_time": 0.008047819137573242,
+    "expected_result": {
+      "district": "Hoàng Su Phì",
+      "ward": "Bản Máy",
+      "province": "Hà Giang"
+    },
+    "actual_result": {
+      "province": "Hà Giang",
+      "district": "Hoàng Su Phì",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Công Hòa H.Kim Thành ",
+    "reg_text": "['cong', 'hoa', 'kim', 'thanh']",
+    "exec_time": 0.18695902824401855,
+    "expected_result": {
+      "district": "Kim Thành",
+      "ward": "Cộng Hòa",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Thanh Hóa",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "XãChơ Chun, H NamiGiang, T.Quảng Nam",
+    "reg_text": "['xacho', 'chun', 'giang', 'quang', 'nam']",
+    "exec_time": 0.008028984069824219,
+    "expected_result": {
+      "district": "Nam Giang",
+      "ward": "Chơ Chun",
+      "province": "Quảng Nam"
+    },
+    "actual_result": {
+      "province": "Quảng Nam",
+      "district": "Tây Giang",
+      "ward": "Chơm"
+    }
+  },
+  {
+    "raw_text": "Xã Tân Kiên Hbình Chánh Thành phôHôChíMinh",
+    "reg_text": "['tan', 'kien', 'hbinh', 'chanh', 'thanh', 'phohochiminh']",
+    "exec_time": 0.010925054550170898,
+    "expected_result": {
+      "district": "Bình Chánh",
+      "ward": "Tân Kiên",
+      "province": "Hồ Chí Minh"
+    },
+    "actual_result": {
+      "province": "Hồ Chí Minh",
+      "district": "Bình Thạnh",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " eăn Tiến, Yên Lạc, vĩnh P0húc",
+    "reg_text": "['ean', 'tien', 'yen', 'lac', 'vinh', 'p0huc']",
+    "exec_time": 0.0031311511993408203,
+    "expected_result": {
+      "district": "Yên Lạc",
+      "ward": "Văn Tiến",
+      "province": "Vĩnh Phúc"
+    },
+    "actual_result": {
+      "province": "",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X. Cat Chánh,HuyệnPhù Cát,",
+    "reg_text": "['cat', 'chanh', 'phu', 'cat']",
+    "exec_time": 0.0310821533203125,
+    "expected_result": {
+      "district": "Phù Cát",
+      "ward": "Cát Chánh",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "",
+      "district": "Phù Cát",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " Ea Kmút,hyệnea Kar,Tỉnwh Đắk Lắk",
+    "reg_text": "['ea', 'kmut', 'hyenea', 'kar', 'tinwh', 'dak', 'lak']",
+    "exec_time": 0.0030329227447509766,
+    "expected_result": {
+      "district": "Ea Kar",
+      "ward": "Ea Kmút",
+      "province": "Đắk Lắk"
+    },
+    "actual_result": {
+      "province": "Đắk Lắk",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Xã C.hâu Minh, HHiệp Ha, TBắc Giang",
+    "reg_text": "['hau', 'minh', 'hhiep', 'ha', 'tbac', 'giang']",
+    "exec_time": 0.003854990005493164,
+    "expected_result": {
+      "district": "Hiệp Hòa",
+      "ward": "Châu Minh",
+      "province": "Bắc Giang"
+    },
+    "actual_result": {
+      "province": "Bắc Giang",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Xthịnh Vượng,A , TG.Cao băng",
+    "reg_text": "['xthinh', 'vuong', 'tg', 'cao', 'bang']",
+    "exec_time": 0.0033142566680908203,
+    "expected_result": {
+      "district": "",
+      "ward": "Thịnh Vượng",
+      "province": "Cao Bằng"
+    },
+    "actual_result": {
+      "province": "Cao Bằng",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Diên Thạnh,,T Khabnh Hòa",
+    "reg_text": "['dien', 'thanh', 'khabnh', 'hoa']",
+    "exec_time": 0.062268972396850586,
+    "expected_result": {
+      "district": "",
+      "ward": "Diên Thạnh",
+      "province": "Khánh Hòa"
+    },
+    "actual_result": {
+      "province": "Hoà Bình",
+      "district": "Kim Bôi",
+      "ward": "Hạ Bì"
+    }
+  },
+  {
+    "raw_text": "X.Đức Sơn Anh Sơn ",
+    "reg_text": "['duc', 'son', 'anh', 'son']",
+    "exec_time": 0.007544755935668945,
+    "expected_result": {
+      "district": "Anh Sơn",
+      "ward": "Đức Sơn",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Sơn La",
+      "district": "Vân Hồ",
+      "ward": "Vân Hồ"
+    }
+  },
+  {
+    "raw_text": "X Song Lộc H.Châu Thành ",
+    "reg_text": "['song', 'loc', 'chau', 'thanh']",
+    "exec_time": 0.19345831871032715,
+    "expected_result": {
+      "district": "Châu Thành",
+      "ward": "Song Lộc",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Thanh Hóa",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X. Bản Nguyen,HuyệnLâm Thao,",
+    "reg_text": "['ban', 'nguyen', 'lam', 'thao']",
+    "exec_time": 0.03463888168334961,
+    "expected_result": {
+      "district": "Lâm Thao",
+      "ward": "Bản Nguyên",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Phú Thọ",
+      "district": "Lâm Thao",
+      "ward": "Lâm Thao"
+    }
+  },
+  {
+    "raw_text": "Xã Kiên Thành H Trấn Yên T.yên Bi",
+    "reg_text": "['kien', 'thanh', 'yen', 'yen', 'bi']",
+    "exec_time": 0.007411003112792969,
+    "expected_result": {
+      "district": "Trấn Yên",
+      "ward": "Kiên Thành",
+      "province": "Yên Bái"
+    },
+    "actual_result": {
+      "province": "Yên Bái",
+      "district": "Yên Bái",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "XThạch Xuâ,Thạch Hà,T. Hà Tĩnh",
+    "reg_text": "['xthach', 'xua', 'thach', 'ha', 'ha']",
+    "exec_time": 0.007666110992431641,
+    "expected_result": {
+      "district": "Thạch Hà",
+      "ward": "Thạch Xuân",
+      "province": "Hà Tĩnh"
+    },
+    "actual_result": {
+      "province": "Hà Nội",
+      "district": "Hà Đông",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " Quận 1 T.P H.C.Minh",
+    "reg_text": "['1', 'minh']",
+    "exec_time": 0.003031015396118164,
+    "expected_result": {
+      "district": "1",
+      "ward": "",
+      "province": "Hồ Chí Minh"
+    },
+    "actual_result": {
+      "province": "Hồ Chí Minh",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Sín Chéng,HuyệnSi Ma Cai,TỉnhLào Cai",
+    "reg_text": "['sin', 'cheng', 'si', 'ma', 'cai', 'lao', 'cai']",
+    "exec_time": 0.008057117462158203,
+    "expected_result": {
+      "district": "Si Ma Cai",
+      "ward": "Sín Chéng",
+      "province": "Lào Cai"
+    },
+    "actual_result": {
+      "province": "Lào Cai",
+      "district": "Si Ma Cai",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "oã Bnh Ngọc,T.Phố Tuy Hoà,Tỉnhphú Yên",
+    "reg_text": "['bnh', 'ngoc', 'pho', 'tuy', 'hoa', 'tinhphu', 'yen']",
+    "exec_time": 0.008233070373535156,
+    "expected_result": {
+      "district": "Tuy Hoà",
+      "ward": "Bình Ngọc",
+      "province": "Phú Yên"
+    },
+    "actual_result": {
+      "province": "Phú Yên",
+      "district": "Tuy Hoà",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " Chương Dương, HuyệnĐôngHưng, ",
+    "reg_text": "['chuong', 'duong', 'hung']",
+    "exec_time": 0.05612492561340332,
+    "expected_result": {
+      "district": "Đông Hưng",
+      "ward": "Chương Dương",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Hưng Yên",
+      "district": "Tiên Lữ",
+      "ward": "Vương"
+    }
+  },
+  {
+    "raw_text": " T.P Phan Rang-Tháp lhàm  Ninh Thuận",
+    "reg_text": "['phan', 'rang-thap', 'lham', 'ninh', 'thuan']",
+    "exec_time": 0.003779888153076172,
+    "expected_result": {
+      "district": "Phan Rang-Tháp Chàm",
+      "ward": "",
+      "province": "Ninh Thuận"
+    },
+    "actual_result": {
+      "province": "Ninh Thuận",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": ", Tân Phươc, Tin GJiang",
+    "reg_text": "['tan', 'phuoc', 'tin', 'gjiang']",
+    "exec_time": 0.0417780876159668,
+    "expected_result": {
+      "district": "Tân Phước",
+      "ward": "",
+      "province": "Tiền Giang"
+    },
+    "actual_result": {
+      "province": "",
+      "district": "Dĩ An",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " Đức Lĩnh,Vũ Quang,",
+    "reg_text": "['duc', 'linh', 'vu', 'quang']",
+    "exec_time": 0.04631495475769043,
+    "expected_result": {
+      "district": "Vũ Quang",
+      "ward": "Đức Lĩnh",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Quảng Trị",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Xuân Tân t.P Long Khánh ",
+    "reg_text": "['xuan', 'tan', 'long', 'khanh']",
+    "exec_time": 0.049661874771118164,
+    "expected_result": {
+      "district": "Long Khánh",
+      "ward": "Xuân Tân",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Khánh Hòa",
+      "district": "Vạn Ninh",
+      "ward": "Vạn Long"
+    }
+  },
+  {
+    "raw_text": " H Ea H'leo T Đắk Lắk",
+    "reg_text": "['ea', \"h'leo\", 'dak', 'lak']",
+    "exec_time": 0.08501505851745605,
+    "expected_result": {
+      "district": "Ea H'leo",
+      "ward": "",
+      "province": "Đắk Lắk"
+    },
+    "actual_result": {
+      "province": "Đắk Lắk",
+      "district": "",
+      "ward": "Ea Hồ"
+    }
+  },
+  {
+    "raw_text": "Phú Đô HuyệnPhú Lươnz ",
+    "reg_text": "['phu', 'do', 'phu', 'luonz']",
+    "exec_time": 0.037360191345214844,
+    "expected_result": {
+      "district": "Phú Lương",
+      "ward": "Phú Đô",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "",
+      "district": "Phú Lương",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": ", Nam Đông,T. T.T.H",
+    "reg_text": "['nam', 'dong']",
+    "exec_time": 0.0025968551635742188,
+    "expected_result": {
+      "district": "Nam Đông",
+      "ward": "",
+      "province": "Thừa Thiên Huế"
+    },
+    "actual_result": {
+      "province": "",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "TTĐức An Huyện Đắk SongTỉnhĐắk Nông",
+    "reg_text": "['ttduc', 'an', 'dak', 'tinhdak', 'nong']",
+    "exec_time": 0.008486747741699219,
+    "expected_result": {
+      "district": "Đắk Song",
+      "ward": "Đức An",
+      "province": "Đắk Nông"
+    },
+    "actual_result": {
+      "province": "Đắk Nông",
+      "district": "Đắk Mil",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X Đoàn đào,4 Phù Cừ,T.Hưng Yên",
+    "reg_text": "['doan', 'dao', '4', 'phu', 'cu', 'hung', 'yen']",
+    "exec_time": 0.007375955581665039,
+    "expected_result": {
+      "district": "Phù Cừ",
+      "ward": "Đoàn Đào",
+      "province": "Hưng Yên"
+    },
+    "actual_result": {
+      "province": "Hưng Yên",
+      "district": "Phù Cừ",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X. Hương Liên HuyệnHương Khê T Hà Tinh",
+    "reg_text": "['huong', 'lien', 'huong', 'khe', 'ha']",
+    "exec_time": 0.0031578540802001953,
+    "expected_result": {
+      "district": "Hương Khê",
+      "ward": "Hương Liên",
+      "province": "Hà Tĩnh"
+    },
+    "actual_result": {
+      "province": "Hà Nội",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": " bản HoJn huyện Tam Đường Tỉnh Lai Châu",
+    "reg_text": "['ban', 'jn', 'tam', 'duong', 'lai', 'chau']",
+    "exec_time": 0.0075190067291259766,
+    "expected_result": {
+      "district": "Tam Đường",
+      "ward": "Bản Hon",
+      "province": "Lai Châu"
+    },
+    "actual_result": {
+      "province": "Lai Châu",
+      "district": "Tam Đường",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": ", H KBang, Gia Lai",
+    "reg_text": "['kbang', 'gia', 'lai']",
+    "exec_time": 0.00316619873046875,
+    "expected_result": {
+      "district": "KBang",
+      "ward": "",
+      "province": "Gia Lai"
+    },
+    "actual_result": {
+      "province": "Gia Lai",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "  Bắc Trà My TỉnhQuảng NaHm",
+    "reg_text": "['bac', 'tra', 'my', 'quang', 'hm']",
+    "exec_time": 0.0023021697998046875,
+    "expected_result": {
+      "district": "Bắc Trà My",
+      "ward": "",
+      "province": "Quảng Nam"
+    },
+    "actual_result": {
+      "province": "",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "P Thủy Châu,T.X. hươngThủy,Thừa.t.Huế",
+    "reg_text": "['thuy', 'chau', 'thuy', 'thua', 'hue']",
+    "exec_time": 0.0031270980834960938,
+    "expected_result": {
+      "district": "Hương Thủy",
+      "ward": "Thủy Châu",
+      "province": "Thừa Thiên Huế"
+    },
+    "actual_result": {
+      "province": "Thừa Thiên Huế",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Thi trấ Ea. Knốp,H. Ea Kar,",
+    "reg_text": "['tra', 'ea', 'knop', 'ea', 'kar']",
+    "exec_time": 0.0021600723266601562,
+    "expected_result": {
+      "district": "Ea Kar",
+      "ward": "Ea Knốp",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "",
+      "district": "",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X. Quế Minh,HZuyện Quế Sơn,TỉnhQuảng Nam",
+    "reg_text": "['que', 'minh', 'hzuyen', 'que', 'son', 'quang', 'nam']",
+    "exec_time": 0.007993698120117188,
+    "expected_result": {
+      "district": "Quế Sơn",
+      "ward": "Quế Minh",
+      "province": "Quảng Nam"
+    },
+    "actual_result": {
+      "province": "Quảng Nam",
+      "district": "Quế Sơn",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "X.Nga Thanh hyện Nga son TỉnhThanhQ Hóa",
+    "reg_text": "['nga', 'thanh', 'hyen', 'nga', 'son', 'hoa']",
+    "exec_time": 0.007074832916259766,
+    "expected_result": {
+      "district": "Nga Sơn",
+      "ward": "Nga Thanh",
+      "province": "Thanh Hóa"
+    },
+    "actual_result": {
+      "province": "Hoà Bình",
+      "district": "Kỳ Sơn",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": "Phường Phú Mỹ, Thà6nh phố Thủ Dầu Một, TBình Dương",
+    "reg_text": "['phu', 'my', 'tha6nh', 'pho', 'thu', 'dau', 'mot', 'tbinh', 'duong']",
+    "exec_time": 0.008403778076171875,
+    "expected_result": {
+      "district": "Thủ Dầu Một",
+      "ward": "Phú Mỹ",
+      "province": "Bình Dương"
+    },
+    "actual_result": {
+      "province": "Bình Dương",
+      "district": "Thủ Dầu Một",
+      "ward": ""
+    }
+  },
+  {
+    "raw_text": ",Lệ Thủy,T quảng BìnKh",
+    "reg_text": "['le', 'thuy', 'quang', 'kh']",
+    "exec_time": 0.04921412467956543,
+    "expected_result": {
+      "district": "Lệ Thủy",
+      "ward": "",
+      "province": "Quảng Bình"
+    },
+    "actual_result": {
+      "province": "Khánh Hòa",
+      "district": "Ninh Hòa",
+      "ward": "Ninh Quang"
+    }
+  },
+  {
+    "raw_text": "F Tân bình  dĩ An ",
+    "reg_text": "['tan', 'binh', 'di', 'an']",
+    "exec_time": 0.007250070571899414,
+    "expected_result": {
+      "district": "Dĩ An",
+      "ward": "Tân Bình",
+      "province": ""
+    },
+    "actual_result": {
+      "province": "Hà Nội",
+      "district": "Ba Đình",
+      "ward": "Điện Biên"
+    }
+  },
+  {
+    "raw_text": "x2Trung Sơn,,TỉnhNghê An",
+    "reg_text": "['2trung', 'son', 'nghe', 'an']",
+    "exec_time": 0.007809162139892578,
+    "expected_result": {
+      "district": "",
+      "ward": "Trung Sơn",
+      "province": "Nghệ An"
+    },
+    "actual_result": {
+      "province": "Nghệ An",
+      "district": "Kỳ Sơn",
+      "ward": "Tây Sơn"
+    }
+  }
+]
