@@ -80,6 +80,7 @@ def main():
             result_list_districts.clear()
             result_list_wards.clear()
             data = line_data.get("text")
+            # data = "Ấp 17 Long Trung, Cai Lậy, Tiền Giang"
             result_array = [token.strip() for token in
                             re.split(r'^[a-z]+|[A-Z][^A-Z]*(?<=[a-z])(?=[A-Z])|[,\s.]+', data)]
             result_array = all_lower(result_array)
@@ -165,7 +166,7 @@ def main():
                 text = final[i] + text
                 result_for_districts_again = get_result_list_for_again(text, result_list_districts)
                 ret = len(result_for_districts_again)
-            if not is_possible_miss and len(result_for_districts) > 0:
+            if not is_possible_miss or len(result_for_districts) > 0:
                 i = i - 1
 
             if len(result_for_districts_again) > 0:
