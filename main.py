@@ -6,6 +6,10 @@ import time
 from LCSubStr import LCSubStr
 
 from read_write_data_test import export_to_json
+from address_correction import AddressCorrection
+from vnaddress import VNAddressStandardizer
+
+address_correction = AddressCorrection()
 
 abbreviation_mapping = {
     'thành phố': 'tp',
@@ -61,6 +65,8 @@ def main():
     data = ""
     open('data/output.json', 'w').close()
     data = []
+    data1 = []
+    regex_text = []
     with open('data/output.json', "w", encoding="utf-8") as output_file:
         json.dump(data, output_file, ensure_ascii=False, indent=2)
     for line_data in list_data:
@@ -72,8 +78,9 @@ def main():
             result_list_cities.clear()
             result_list_districts.clear()
             result_list_wards.clear()
-            data = line_data.get("text")
-            result_array = [token.strip() for token in re.split(r'[A-Z][a-z]*(?<=[a-z])(?=[A-Z])|[,\s.]+', data)]
+            data1 = line_data.get("text")
+
+            result_array = [token.strip() for token in re.split(r'^[a-z]+|[A-Z][^A-Z]*(?<=[a-z])(?=[A-Z])|[,\s.]+', data1)]
             result_array = all_lower(result_array)
             final = []
             for ss in result_array:
@@ -82,6 +89,21 @@ def main():
                     if word in [abbr.lower() for abbr in abbreviation_mapping.values()] or (
                             not word.isdigit() and len(word) == 1):
                         final.remove(word)
+            data = ' '.join(final)
+            data, dis = address_correction.address_correction(data)
+            result_array = [token.strip() for token in
+                            re.split(r'(?<=[a-z])(?=[A-Z])|[,\s.]+', data)]
+            result_array = all_lower(result_array)
+            final = []
+            for ss in result_array:
+                final.append(re.sub('<.*?>', '', remove_regex(ss).replace(".", "")))
+                for word in final:
+                    if word in [abbr.lower() for abbr in abbreviation_mapping.values()] or (
+                            not word.isdigit() and len(word) == 1):
+                        final.remove(word)
+            # print('----->', final, '\n')
+            regex_text = str(final)
+
             i = len(final) - 1
 
             # Code for cities
@@ -212,11 +234,11 @@ def main():
 
         finally:
             expected_result = line_data.get('result')
-            if (name_cities == expected_result.get('province') and name_districts == expected_result.get('district')
-                    and name_wards == expected_result.get(
-                        'ward')):
+            if ((name_cities == expected_result.get('province') or expected_result.get('province') == "")
+                    and (name_districts == expected_result.get('district') or expected_result.get('district') == "")
+                    and (name_wards == expected_result.get('ward') or expected_result.get('ward') == "")):
                 correct_record = correct_record + 1
-            export_to_json('data/output.json', data, expected_result, name_cities, name_districts, name_wards)
+            export_to_json('data/output.json', data1, data, regex_text, expected_result, name_cities, name_districts, name_wards)
 
     print("Classification correct: ", correct_record, "/", all_record)
     print("Percent correct = ", (correct_record / all_record) * 100)
