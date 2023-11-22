@@ -296,7 +296,6 @@ def get_result_list_for_cities(first_word, second_word, list_data_add):
             or (len(result_two_word) == len(result_one_word) and len(first_word) < 7) and len(result_one_word) > 0:
         is_use_second_word = True
         result.append(max(result_two_word, key=lambda x: x['weight']).get('data'))
-        print(max(result_two_word, key=lambda x: x['weight']).get('weight'))
     elif len(result_two_word) == 0 and len(result_one_word) == 0:
         is_use_second_word = False
         result = []
